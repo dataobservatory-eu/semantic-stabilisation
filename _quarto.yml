@@ -36,7 +36,6 @@ book:
     - empirical.qmd
     - research.qmd
     - references.qmd
-    
 
 citation:
   container-title: "Semantic Stabilisation"
