@@ -1,0 +1,145 @@
+# Research and Innovation
+
+Semantic stabilisation is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into a sufficiently coherent semantic representation that supports reproducible inference, communication, and practical decision-making.
+
+## Methodological Inspirations
+
+This research programme is informed by two philosophical perspectives that emphasise knowledge formation as a process rather than a final outcome.
+
+Donald Davidson's concept of the radical interpreter provides a useful metaphor for semantic stabilisation under conditions of minimal prior knowledge. The interpreter enters a context where meanings cannot be assumed and must be inferred through observation, contextual clues, and iterative hypothesis formation. Similar situations arise in provenance research, namespace construction, and the identification of previously unknown entities.
+
+> In  a recent paper, nicely entitled "A Nice Derangement of Epitaphs, Davidson tries to  undermine the  notion of languages as  entities by developing the notion of what he calls "a passing theory" about the noises and inscriptions presently being produced by a fellow human. Think of such a  theory  as  part  of a  larger  "passing theory"  about this  person's  total behavior - a set of guesses about what she will do under what conditions. Such a  theory is  "passing"  because  it must constantly  be corrected  to allow  for  mumbles,  stumbles, malapropisms, metaphors,  tics, seizures,  psychotic symptoms, egregious stupidity, strokes of genius, and the like.\
+> \
+> To make things easier, imagine that I am forming such a theory about the current behavior of a native of an exotic culture into which I have unexpectedly  parachuted.  This  strange  person,  who  presumably  finds  me equally strange, will simultaneously be busy forming a theory about my behavior**. I**f we ever succeed in communicating easily and happily, it will be because her guesses about what I am going to do next, including why: noises I am going to make next, and my own expectations about what .I shall do or say under certain circumstances, come more or less to coin­cide, and because the converse is also true. She and I are coping with each other as we might with mangoes or boa constrictor \[snakes\] - we are trying not to be taken by surprise. To came to say that we speak the same language is to say, as Davidson puts it, that "we tend to converge on passing theories" Davidson's point is that all "two people need, if they are to understand one another through speech, is the ability to converge on passthing theories from utterance to utterance."\
+> \
+> Davidson's account of linguistic communication dispenses with the picture of language as a third thing intervening between self and reality, and of different languages as barriers between persons or cultures. To say that one's previous language was inappropriate for dealing with some segment of the world (for example, the starry heavens above, or the raging passions within) is just to say that one is now, having learned a new language, able to handle that segment more easily.  To say that two communities have trouble getting along because the words they use are so hard to translate into each other is just to say that the linguistic behavior of inhabitants of one community may, like the rest of their behavior, be hard for inhabitants of the other community to predict
+
+Imre Lakatos's philosophy of science provides a complementary perspective on the progressive refinement of knowledge claims. Rather than treating semantic correspondences as simply true or false, semantic stabilisation treats them as hypotheses that may become increasingly corroborated or increasingly challenged as new evidence emerges.
+
+> ... the typical descriptive unit of great scientific achievements is not an isolated hypothesis but rather a research programme. Science is not simply trial and error, a series of conjectures and refutations. ‘All swans are white’ may be falsified by the discovery of one black swan. But such trivial trial and error does not rank as science. Newtonian science, for instance, is not simply a set of four conjectures—the three laws of mechanics and the law of gravitation. These four laws constitute only the ‘hard core’ of the Newtonian programme. But this hard core is tenaciously protected from refutation by a vast ‘protective belt’ of auxiliary hypotheses. And, even more importantly, the research programme also has a ‘heuristic’, that is, a powerful problem-solving machinery, which, with the help of sophisticated mathematical techniques, digests anomalies and even turns them into positive evidence. For instance, if a planet does not move exactly as it should, the Newtonian scientist checks his conjectures concerning atmospheric refraction, concerning propaga­tion of light in magnetic storms, and hundreds of other conjectures which are all part of the programme. He may even invent a hitherto unknown planet and calculate its position, mass and velocity in order to explain the anomaly.
+
+Together, these perspectives encourage an understanding of semantic stabilisation as an iterative process of interpretation, review, corroboration, and revision. Stabilisation does not conclude inquiry. On the contrary, successful stabilisation often creates new opportunities for inference, new questions, and new avenues of investigation.
+
+## Innovative Methodological Approach
+
+This research programme develops and evaluates semantic stabilisation methods through a portfolio of peer-reviewed scientific software written primarily in R. The software serves as a reproducible research environment in which semantic stabilisation methods can be specified, implemented, tested, documented, and evaluated using real-world data and operational knowledge systems.
+
+R is particularly suitable for this purpose because it combines readability, reproducibility, and rapid methodological development. Methods developed in R can subsequently be implemented in other environments, including Python, Java, C++, web applications, and production-scale knowledge graph infrastructures.
+
+The software itself is not the primary scientific contribution. Rather, it functions as an experimental framework that enables the systematic investigation of semantic stabilisation processes under realistic conditions.
+
+Over the past eight years, I and my research and innovation-focused company have developed an ecosystem of software modules addressing recurring problems of semantic correspondence, harmonisation, provenance management, and knowledge integration. These tools emerged from practical challenges in official statistics, survey harmonisation, cultural heritage, rights management, sustainability reporting, and knowledge graph engineering.
+
+The research programme extends this ecosystem through new software libraries, methodological papers, and browser-based applications, including Shiny applications and lightweight review interfaces that make semantic stabilisation workflows accessible to users without programming expertise.
+
+### The iotables Package
+
+The [iotables](https://iotables.dataobservatory.eu/) package provides a reproducible toolkit for working with symmetric input-output tables (SIOTs) and related satellite accounts. These statistical systems constitute some of the most complex official statistical products, integrating economic, environmental, demographic, and industrial information into a coherent framework.
+
+Most official statistics are disseminated as multidimensional data cubes that allow filtering and aggregation across dimensions such as geography, industry, population groups, or time. Symmetric input-output tables go further by linking production, consumption, income generation, taxation, trade, material use, and environmental impacts into a single analytical system grounded in Nobel Prize-winning economic theory.
+
+Although iotables contains analytical functions, a significant part of its contribution concerns semantic harmonisation. Meaningful use of SIOTs requires the precise alignment of economic activity classifications, product taxonomies, environmental classifications, units of measurement, territorial codes, and statistical definitions across countries and statistical vintages.
+
+In this sense, iotables can be understood as an early semantic stabilisation toolkit. Before economic, environmental, or social inferences can be drawn from the data, the semantic meaning of the underlying observations must be established and maintained consistently across multiple statistical systems. You can access the iotables product page on [iotables.dataobservatory.eu](https://iotables.dataobservatory.eu/). The product page consists of tutorials, cross-reference with the EU and UN statistical handbooks on the topic, and a case study of environmental impact assessment.
+
+### The retroharmonize Package
+
+The [retroharmonize](https://retroharmonize.dataobservatory.eu/) package addresses a more demanding semantic stabilisation problem than iotables. Rather than harmonising statistical classifications and taxonomies within an established statistical framework, it treats independently collected survey datasets as candidates for semantic correspondence and integration.
+
+Survey data are often collected in different countries, languages, years, and institutional contexts. Even when surveys appear to measure similar concepts, they may use different questionnaire wording, response scales, coding schemes, variable names, value labels, or metadata conventions. Establishing whether two variables genuinely represent the same underlying concept is therefore a semantic stabilisation problem rather than a purely technical data integration task.
+
+For example, if cultural participation surveys based on common model questionnaires are conducted in Hungary and Slovakia in both 2015 and 2020, meaningful comparison requires more than simply joining datasets. It requires establishing semantic correspondence among concepts, variables, value labels, and coding schemes before valid inferences can be made about changes in concert attendance, film preferences, or other forms of cultural participation across countries and over time.
+
+The retroharmonize package provides methods for concept harmonisation, variable harmonisation, value-label harmonisation, and metadata reconciliation across SPSS, Stata, CSV, and other common research formats. The package enables the creation of integrated datasets that preserve the semantic meaning of the original observations while making them suitable for comparative analysis.
+
+Released on CRAN more than six years ago, retroharmonize has been used to harmonise survey microdata from large international research programmes, including Afrobarometer, Arab Barometer, and Eurobarometer, as well as cultural participation surveys in the music, audiovisual, and cultural sectors.
+
+From the perspective of semantic stabilisation, retroharmonize represents a transition from classification harmonisation to observation harmonisation. The package demonstrates how semantic correspondence can be established among independently collected observations that are similar enough to support comparison, but different enough to require explicit methodological intervention before they can be safely combined.
+
+The accompanying rOpenCodebooks framework extends this approach by providing a lightweight linked open data publication system for survey codebooks and harmonisation metadata, allowing semantic correspondence decisions to remain transparent, reviewable, and reusable.
+
+The [retroharmonize.dataobservatory.eu](https://retroharmonize.dataobservatory.eu/) product page contains the rich documentation of the pacakge and use cases to use it with Eurobaromter, Arabbarometer and Afrobarometer harmonised sureys across time and country.
+
+### The Eviota System
+
+The Eviota system addresses semantic stabilisation problems that arise when organisational data must be interpreted within broader statistical, environmental, and policy frameworks.
+
+National accounts provide a highly stabilised semantic system. Their concepts, classifications, accounting rules, and reporting standards are harmonised internationally through frameworks developed by the United Nations, OECD, European Union, and national statistical authorities. These standards make it possible to compare economic, social, and environmental indicators across countries and over time.
+
+Organisations, however, operate in a much less constrained semantic environment. Companies, public institutions, and non-governmental organisations use a wide variety of accounting software, reporting practices, and chart-of-account structures. While two organisations may record similar economic activities, they often describe, classify, and aggregate them differently.
+
+As a result, determining what an organisation means by a particular account entry can be significantly more challenging than interpreting the equivalent concept in a national statistical system. A ledger entry labelled "fuel" may refer to different categories of expenditure, tax treatments, or operational activities depending on organisational context. Similar semantic ambiguities arise when matching natural-language labels across languages, accounting traditions, and reporting systems.
+
+The Eviota system therefore focuses on semantic correspondence between local organisational accounting systems and the standardised concepts of national accounts. By establishing these correspondences, organisational data can be benchmarked against sectoral, national, and international reference systems.
+
+This capability enables practical applications such as environmental impact assessment, sustainability reporting, and social benchmarking. For example, an organisation's greenhouse gas emissions, employment structure, or resource consumption can be compared with typical patterns observed within its sector or national economy.
+
+From the perspective of semantic stabilisation, Eviota represents a transition from harmonising observations to harmonising organisational knowledge systems. The challenge is no longer whether two survey variables measure the same concept, but whether locally defined organisational categories can be interpreted consistently within a globally stabilised statistical framework.
+
+The Eviota prototype was originally developed through a Music Moves Europe innovation grant and subsequently received the EIT CCI Breakthrough Lab Prize in the audiovisual sector. The system has been applied to environmental reporting and sustainability assessment in music and audiovisual production contexts.
+
+If iotables stabilises official statistical classifications and retroharmonize stabilises observations collected in separate research processes, Eviota stabilises semantic correspondences between organisational information systems and external statistical reference systems.
+
+### The dataset Package
+
+The dataset package emerged from several years of work on statistical harmonisation, survey integration, cultural heritage data, and semantic interoperability. While earlier packages addressed specific semantic stabilisation problems, dataset seeks to provide a general semantic framework for representing, documenting, and exchanging structured data.
+
+The package is inspired by the philosophy of *tidy data* and the broader tidyverse ecosystem developed by Hadley Wickham and collaborators. The success of tidy data lies in its ability to translate sophisticated concepts from statistical data modelling, relational database design, and data cube theory into a small set of practical rules that make data easier to understand, manipulate, and analyse. By organising observations, variables, and values in a consistent manner, tidy datasets naturally support reproducible analytical workflows and chains of mathematical transformations.
+
+The simplicity of the tidy data approach is both its greatest strength and its principal limitation. By reducing the semantic burden placed on analysts, tidy data makes statistical and computational analysis highly efficient. At the same time, much of the contextual knowledge required for long-term reuse remains implicit. The meaning of variables, classifications, coding schemes, provenance relationships, and validity constraints is often known to the analyst but not formally represented within the dataset itself. As a result, datasets frequently become difficult to interpret, reproduce, or reuse after they leave their original analytical environment.
+
+The dataset package addresses this limitation by extending tidy datasets with explicit semantic metadata while preserving compatibility with existing analytical workflows. It allows metadata to be attached at the dataset, variable, and observation level in a manner that remains largely invisible during routine analysis but becomes available whenever documentation, validation, exchange, or long-term preservation are required.
+
+From the perspective of semantic stabilisation, the package introduces the concept of a semantic dataset: a dataset in which observations are accompanied by machine-readable definitions, provenance statements, validity constraints, and contextual information that allow their meaning to remain stable across users, software environments, and time.
+
+The package also supports the serialisation of semantic datasets into RDF-based representations that expose these semantic relationships through internationally recognised standards. This enables interoperability with Linked Open Data environments, knowledge graphs, statistical dissemination systems, and digital humanities infrastructures. In practical terms, the package allows researchers to create dataset publications that are compatible with infrastructures based on standards such as the Statistical Data and Metadata Exchange (SDMX) and the Data Documentation Initiative (DDI), both of which underpin large-scale data exchange among official statistical agencies and research repositories.
+
+The dataset package was peer-reviewed through the rOpenSci software review process and released on CRAN. Its development was partly supported through the OpenMuse Horizon Europe Research and Innovation Action project, where the need arose to publish complex cultural and creative industry datasets in a form that remained understandable, reusable, and semantically stable beyond their original analytical context.
+
+Conceptually, dataset represents a shift from semantic harmonisation to semantic representation. Whereas earlier packages establish semantic correspondences among observations, variables, or classifications, dataset focuses on preserving those correspondences in a reusable and machine-actionable form. It therefore serves as a foundational component for subsequent work on knowledge graph federation, provenance-aware data systems, and semantic stabilisation more generally.
+
+### The wbfederate Package (in Development)
+
+The emerging wbfederate package builds on the evolving wbdataset and namespace packages to address semantic stabilisation problems in knowledge graph federation. Its objective is to support the controlled synchronisation, federation, and roundtripping of information among Wikibase instances, including Wikidata and domain-specific Wikibase installations.
+
+Wikidata is the world's largest openly accessible knowledge graph and acts as a semantic broker among thousands of structured data sources. Through its pragmatic ontology and identifier infrastructure, it connects national library authority files, cultural heritage databases, statistical systems, music industry identifiers, geographic information systems, and many other forms of structured knowledge. As a result, Wikidata and Wikibase have become key components of the European cultural heritage and GLAM ecosystem.
+
+Many institutions now maintain their own Wikibase installations alongside Wikidata. These include libraries, museums, archives, research infrastructures, and domain-specific data spaces. While such systems often describe overlapping entities, concepts, and relationships, they do so for different purposes, with different levels of granularity, and under different modelling assumptions.
+
+This creates a fundamental federation problem. Although it is technically straightforward to exchange statements between Wikibase instances through the Wikidata Action API, semantic correspondence cannot be assumed merely because two systems use similar labels, identifiers, or properties.
+
+A human curator working in OpenRefine can quickly recognise that "Paris" may refer either to the capital of France or to Paris, Texas. Similarly, a curator can determine whether a particular Béla Bartók identifier refers to the composer, a recording, a publication, or an archival collection. Automated synchronisation processes lack this contextual understanding unless explicit stabilisation mechanisms are introduced.
+
+The central methodological challenge addressed by wbfederate is therefore not data exchange but semantic stabilisation under conditions of partial correspondence. Rather than assuming global ontology alignment, the package focuses on identifying sufficiently stable correspondences among entities, properties, classifications, and graph structures to support specific federation tasks.
+
+The package implements wrappers around the Wikibase Action API together with validation, correspondence detection, and inference-candidate generation mechanisms that reduce the likelihood of semantic drift during automated synchronisation. These methods are informed by practical experience in authority control, rights management, cultural heritage data integration, and multilingual metadata reconciliation.
+
+From the perspective of semantic stabilisation, wbfederate represents a transition from semantic representation to semantic federation. The objective is not to establish universal equivalence among heterogeneous knowledge graphs, but to create federated subgraphs in which semantically equivalent queries produce equivalent results within a clearly defined context.
+
+This distinction is important. A poet and a lyricist are not globally equivalent concepts. Yet within a sufficiently constrained music knowledge graph, they may occupy semantically compatible roles that support equivalent inferences. Federation therefore depends not on complete semantic agreement but on the identification of stable and reviewable correspondence patterns.
+
+The package also serves as an experimental platform for the study of inference candidate engines, identity profiles, and human-in-the-loop federation workflows. These methods aim to generate constrained candidate correspondences that remain sufficiently narrow for efficient human review while accommodating the incompleteness and heterogeneity of real-world knowledge systems.
+
+The long-term objective is to publish wbfederate as a peer-reviewed CRAN package and use it as a methodological testbed for investigating the cognitive and computational challenges of large-scale knowledge graph federation. Beyond its practical utility, the package is intended to contribute to a broader understanding of how semantic stabilisation can support trustworthy federation among heterogeneous knowledge systems.
+
+### The fscontext Package (in Development)
+
+The emerging fscontext package extends the semantic dataset philosophy into the domain of archival, library, museum, and digital humanities data. While earlier packages focus primarily on the stabilisation of classifications, observations, datasets, and knowledge graph entities, fscontext addresses the stabilisation of context itself.
+
+The package is informed by the Records in Contexts (RiC) conceptual model and ontology, the successor to the ISAD(G) family of archival standards that dominated archival description for more than three decades. Whereas ISAD(G) emerged during the first generation of digitisation and focused primarily on representing archival inventories within local relational databases, RiC adopts a Linked Open Data perspective in which records, agents, places, events, functions, and collections can be connected across institutions and domains.
+
+This shift reflects a broader transformation in cultural heritage data management. Archives, libraries, museums, repositories, and research collections increasingly seek to connect dispersed materials through shared contextual information rather than through isolated catalogue records. Such integration requires not only technical interoperability but also semantic stabilisation across different descriptive traditions, languages, and institutional practices.
+
+The fscontext package explores how the relational algebra tools available in R can be used to transform large-scale archival and humanities datasets into semantically richer representations compatible with the RiC model. In practical terms, this involves the transformation of legacy tabular descriptions, archival inventories, filesystem structures, and other semi-structured records into contextual record graphs that preserve provenance, relationships, and evidential context.
+
+The package is grounded in ongoing work to connect archival, library, and museum collections across Hungary, Estonia, Finland, Latvia, and other countries participating in the long-standing Finno-Ugric scholarly tradition. These collections document more than a century of linguistic, ethnographic, historical, and cultural research relating to Estonians, Livonians, Udmurts, Maris, Hungarians, Sámi communities, and other Finno-Ugric peoples.
+
+The integration of these collections presents a particularly demanding semantic stabilisation challenge. Materials are dispersed across institutions, countries, languages, and descriptive traditions. The same person, place, collection event, or cultural object may appear under different names, transliterations, languages, or historical naming conventions. A place recorded as Mazirbe in Latvian records may appear as Irē in Livonian sources, Klein-Irben in Baltic German records, or Suur-Irben in Finnish ethnographic documentation. Establishing whether these references describe the same place is not merely a technical matching problem but a process of semantic stabilisation supported by provenance, contextual evidence, and domain expertise.
+
+From the perspective of semantic stabilisation, fscontext represents a transition from semantic federation to contextual federation. The objective is no longer simply to establish correspondence among entities or datasets, but to preserve and reconstruct the relationships among records, people, places, events, and collections that give those entities meaning.
+
+The package also explores the stabilisation of born-digital materials. Potential use cases include the archival description of a deceased author's personal computer, the contextualisation of research files and digital correspondence, or the enrichment of web archives assembled from dispersed cultural heritage collections. In such cases, filesystem structures, timestamps, file relationships, and usage histories become important sources of contextual evidence that can be transformed into archival descriptions and semantic objects.
+
+Conceptually, fscontext extends semantic stabilisation from the level of observations and entities to the level of contextual knowledge. It investigates how provenance, context, and evidential relationships can be preserved, reconstructed, and made computationally actionable without sacrificing the interpretive richness that characterises humanities research.
+
+These packages were not developed to implement a pre-existing theory of semantic stabilisation. Rather, the concept of semantic stabilisation emerged retrospectively from repeated encounters with structurally similar problems across official statistics, survey research, accounting, cultural heritage, rights management, provenance research, and knowledge graph federation. What initially appeared as domain-specific challenges increasingly revealed a common methodological structure: the need to establish sufficiently stable semantic correspondences among incomplete, heterogeneous, and partially conflicting representations. The software ecosystem therefore serves not only as a collection of practical tools but also as an experimental laboratory for the development and evaluation of semantic stabilisation methods.

@@ -1,0 +1,15 @@
+# Introduction {.unnumbered}
+
+Semantic stabilisation is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into a sufficiently coherent semantic representation that supports reproducible inference, communication, and practical decision-making.
+
+Examples of systematic semantic stabilisation include named-entity resolution ("Are we talking about the same person or thing?"), the integration of statistical datasets ("Do these variables measure the same concept?"), rights management ("Are these claims referring to the same work or rights holder?"), and knowledge graph federation ("Do these differently modelled entities support equivalent inferences?").
+
+The process is inherently iterative. New observations, contextual information, or competing interpretations may refine, strengthen, or challenge previously stabilised representations.
+
+In everyday life, semantic stabilisation is often performed unconsciously. When two people establish that they are both referring to Taylor Swift, the singer, rather than another person with the same name, they have resolved a semantic ambiguity. When a photographer is identified through a partial name, a date, and a place of work, a similar process occurs. Humans routinely perform such stabilisation through context, shared assumptions, and accumulated experience.
+
+When semantic correspondence must be established systematically, repeatedly, or at scale, however, semantic stabilisation requires explicit methods, documented evidence, and reproducible review processes.
+
+The objective is not to eliminate ambiguity entirely but to bound ambiguity sufficiently for a given purpose, allowing both human and computational actors to reason about an object in a transparent and reproducible manner.
+
+Semantic stabilisation is therefore a process of uncertainty reduction rather than certainty creation. The output is not necessarily a final truth claim, but a semantic object whose remaining uncertainty is explicit, reviewable, and manageable.

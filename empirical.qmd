@@ -1,0 +1,17 @@
+# Empirical domains
+
+The research programme is grounded in operational data infrastructures and real-world knowledge systems, including:
+
+- rights management and authority control;
+
+- cultural heritage and GLAM knowledge graphs;
+
+- graph federation and semantic interoperability;
+
+- multilingual metadata integration;
+
+- provenance-aware knowledge systems;
+
+- semantic validation and review workflows.
+
+These domains provide practical settings in which semantic stabilisation problems arise naturally and can be observed under realistic conditions.

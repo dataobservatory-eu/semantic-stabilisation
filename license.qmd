@@ -1,0 +1,8 @@
+This document is licensed under the `CC BY 4.0 LEGAL CODE Attribution 4.0 International` license. You can use it in your work, but you must give credit to the creators in the following format.
+
+**Please refer to the the document as**:\
+Antal, D. (2026). Semantic Stabilisation: A Research and Innovation Programme
+
+**Canonical Licence URL**: <https://creativecommons.org/licenses/by/4.0/>
+
+**Other formats**: [Plain Text](https://creativecommons.org/licenses/by/4.0/legalcode.txt); [RDF/XML](https://creativecommons.org/licenses/by/4.0/rdf)l [**See the deed**](https://creativecommons.org/licenses/by/4.0/deed.en)
