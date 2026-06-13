@@ -1,0 +1,29 @@
+# Projects
+
+## Prospective project ideas
+
+### PROCLAIM {#sec-proclaim}
+
+Journalistic archives introduce a semantic stabilisation problem that extends beyond traditional copyright management. While copyright infrastructures typically focus on identifying works, rightsholders, licences, and permitted uses, journalistic content also contains time-bound claims about events, persons, organisations, and public affairs.
+
+A single journalistic article may simultaneously contain copyright-protected expression, references to identifiable persons, quotations from third parties, public records, freedom-of-information disclosures, and statements whose interpretation depends on historical and political context. As articles are reused, translated, summarised, linked, or processed by AI systems, the semantic relationship between these elements may become unstable.
+
+The proposed `Provenance-Aware Claims and Machine-Readable Rights` ([proclaim](https://reprex.nl/project/proclaim/)) project investigates how semantic stabilisation methods can be applied to journalistic knowledge systems. The objective is to create machine-actionable representations linking articles, statements, events, actors, provenance assertions, and rights expressions. These representations would support lawful reuse, cross-border editorial collaboration, and AI-mediated information environments while preserving contextual integrity.
+
+From the perspective of semantic stabilisation, PAJRA investigates a transition from entity stabilisation to claim stabilisation. The central question is not merely whether two identifiers refer to the same person or work, but whether two statements, potentially created in different languages, jurisdictions, or political contexts, support equivalent interpretations and inferences.
+
+The project also serves as an experimental environment for studying provenance-aware rights expression, machine-readable policy frameworks such as ODRL, and the interaction between copyright, data protection, personality rights, editorial constraints, and public-interest exceptions. In this sense, journalistic archives provide a particularly demanding test case for semantic stabilisation because legal, semantic, and ethical constraints must remain aligned throughout the lifecycle of information.
+
+## OpenSync {#sec-opensync}
+
+## Past projects
+
+### Music Eviota {#sec-music-eviota}
+
+The Eviota project aims to develop sustainability reports directly linked to the financial accounts of companies, NGOs, and civil society organisations. The initial phase focuses on estimating greenhouse gas emissions and air pollutants. Our goal is to generate reliable, expenditure-based estimates of the carbon and pollution footprint of music-related social enterprises—an approach we refer to as connected financial and sustainability reporting.or double materiality reporting.
+
+The objective of the MusicAIRE GREEN Recovery Programme was to increase environmental sustainability and ecological awareness within the music sector. Its focus is on greening the industry—particularly live performances, festivals, and touring—while also supporting innovative start-ups that seek to reduce the environmental impact of online data storage and music distribution.
+
+The Music Eviota project was supported by MusicAIRE. The MusicAIRE grant provided us with resources to support additional music businesses, civil society organisations, and researchers with high-quality data—free of charge during the project’s duration.
+
+[Music Eviota](https://reprex.nl/project/musiceviota/)

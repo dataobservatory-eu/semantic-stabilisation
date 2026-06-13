@@ -2,7 +2,7 @@
 
 ## Publications
 
-### Federating Open Knowledge through Wikibase: The Case of The Finno-Ugric Data Sharing Space
+### Federating Open Knowledge through Wikibase: The Case of The Finno-Ugric Data Sharing Space {#sec-publication-dnhb-2025}
 
 In *Digital Humanities in the Nordic and Baltic Countries Publications*
 
@@ -12,9 +12,9 @@ This paper presents the design and early implementation of the Finno-Ugric Data 
 
 Co-authors: Kata Gábor, Ieva Pigozne, Bogáta Tímár
 
-### Linking Garments to Knowledge: TextileBase as an Interdisciplinary Graph for Dress and Textile Research
+### Linking Garments to Knowledge: TextileBase as an Interdisciplinary Graph for Dress and Textile Research {#sec-publication-textilebase}
 
-This article introduces TextileBase, a multilingual knowledge graph that connects dispersed data on garments from museums, archives, and libraries. By transforming artefact records, photographs, and texts into interoperable knowledge statements, it enables interdisciplinary research across dress history, ethnography, and sustainable fashion. The preprint demonstrates early results using Baltic and Finno-Ugric datasets and shows how TextileBase improves searchability, semantic interoperability, and reuse of cultural heritage data.
+This article introduces `TextileBase`, a multilingual knowledge graph that connects dispersed data on garments from museums, archives, and libraries. By transforming artefact records, photographs, and texts into interoperable knowledge statements, it enables interdisciplinary research across dress history, ethnography, and sustainable fashion. The preprint demonstrates early results using Baltic and Finno-Ugric datasets and shows how TextileBase improves searchability, semantic interoperability, and reuse of cultural heritage data.
 
 Journal article in *Culture Crossroads*, Vol. 28, 2025
 
@@ -24,7 +24,7 @@ Co-authors: Ieva Pigozne
 
 ### A szlovák adatkicserélési tér magyarországi föderációjának lehetőségei
 
-The aim of the Slovak Comprehensive Music Database (SKCMDb) is to provide a trustworthy description and easy access to all music created on the territory of the modern Slovak Republic or created by musicians who have lived in Slovakia, use the Slovak language or claim Slovak identity. It does not aim to define „Slovakness” in legal or ethnomusicological terms; it wants to make the new music made in the country visible and provide access to its music heritage, including the heritage of its minority communities. The linked databases, supported by a data sharing space, create an unprecedented undertaking that aims for organisational, legal, semantic, and technical interoperability among the data systems of Slovak public institutions and the rights management organisations and enterprises of the private sector. My conference lecture and publication focused on its replicability and the possibility of data federation with Hungarian music data owners.
+The aim of the `Slovak Comprehensive Music Database` (SKCMDb) is to provide a trustworthy description and easy access to all music created on the territory of the modern Slovak Republic or created by musicians who have lived in Slovakia, use the Slovak language or claim Slovak identity. It does not aim to define „Slovakness” in legal or ethnomusicological terms; it wants to make the new music made in the country visible and provide access to its music heritage, including the heritage of its minority communities. The linked databases, supported by a data sharing space, create an unprecedented undertaking that aims for organisational, legal, semantic, and technical interoperability among the data systems of Slovak public institutions and the rights management organisations and enterprises of the private sector. My conference lecture and publication focused on its replicability and the possibility of data federation with Hungarian music data owners.
 
 ### Ensuring the Visibility and Accessibility of European Creative Content on the World Market: The Need for Copyright Data Improvement in the Light of New Technologies
 
