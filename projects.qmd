@@ -4,6 +4,8 @@
 
 ### PROCLAIM {#sec-proclaim}
 
+[![Provenance-Aware Claims and Machine-Readable Rights](png/projects/proclaim.png){fig-alt="Provenance-Aware Claims and Machine-Readable Rights" fig-align="center"}](https://reprex.nl/project/proclaim/)
+
 Journalistic archives introduce a semantic stabilisation problem that extends beyond traditional copyright management. While copyright infrastructures typically focus on identifying works, rightsholders, licences, and permitted uses, journalistic content also contains time-bound claims about events, persons, organisations, and public affairs.
 
 A single journalistic article may simultaneously contain copyright-protected expression, references to identifiable persons, quotations from third parties, public records, freedom-of-information disclosures, and statements whose interpretation depends on historical and political context. As articles are reused, translated, summarised, linked, or processed by AI systems, the semantic relationship between these elements may become unstable.
