@@ -34,6 +34,7 @@ book:
     - glossary.qmd
     - innovation.qmd
     - empirical.qmd
+    - projects.qmd
     - research.qmd
     - references.qmd
 
@@ -72,6 +73,7 @@ bibliography:
     - bib/OpenMusE.bib
     - bib/openmusicobservatory.bib
     - bib/openmusicrepositories.bib
+    - bib/ric.bib
     - bib/services.bib
     - bib/trustworthyAI.bib
     - bib/wikidata.bib

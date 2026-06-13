@@ -1,5 +1,11 @@
 # Research and Innovation
 
+```{=html}
+<!---
+..., —
+--->
+```
+
 Semantic stabilisation is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into a sufficiently coherent semantic representation that supports reproducible inference, communication, and practical decision-making.
 
 ## Methodological Inspirations
@@ -8,17 +14,50 @@ This research programme is informed by two philosophical perspectives that empha
 
 Donald Davidson's concept of the radical interpreter provides a useful metaphor for semantic stabilisation under conditions of minimal prior knowledge. The interpreter enters a context where meanings cannot be assumed and must be inferred through observation, contextual clues, and iterative hypothesis formation. Similar situations arise in provenance research, namespace construction, and the identification of previously unknown entities.
 
-> In  a recent paper, nicely entitled "A Nice Derangement of Epitaphs, Davidson tries to  undermine the  notion of languages as  entities by developing the notion of what he calls "a passing theory" about the noises and inscriptions presently being produced by a fellow human. Think of such a  theory  as  part  of a  larger  "passing theory"  about this  person's  total behavior - a set of guesses about what she will do under what conditions. Such a  theory is  "passing"  because  it must constantly  be corrected  to allow  for  mumbles,  stumbles, malapropisms, metaphors,  tics, seizures,  psychotic symptoms, egregious stupidity, strokes of genius, and the like.\
-> \
-> To make things easier, imagine that I am forming such a theory about the current behavior of a native of an exotic culture into which I have unexpectedly  parachuted.  This  strange  person,  who  presumably  finds  me equally strange, will simultaneously be busy forming a theory about my behavior**. I**f we ever succeed in communicating easily and happily, it will be because her guesses about what I am going to do next, including why: noises I am going to make next, and my own expectations about what .I shall do or say under certain circumstances, come more or less to coin­cide, and because the converse is also true. She and I are coping with each other as we might with mangoes or boa constrictor \[snakes\] - we are trying not to be taken by surprise. To came to say that we speak the same language is to say, as Davidson puts it, that "we tend to converge on passing theories" Davidson's point is that all "two people need, if they are to understand one another through speech, is the ability to converge on passthing theories from utterance to utterance."\
-> \
-> Davidson's account of linguistic communication dispenses with the picture of language as a third thing intervening between self and reality, and of different languages as barriers between persons or cultures. To say that one's previous language was inappropriate for dealing with some segment of the world (for example, the starry heavens above, or the raging passions within) is just to say that one is now, having learned a new language, able to handle that segment more easily.  To say that two communities have trouble getting along because the words they use are so hard to translate into each other is just to say that the linguistic behavior of inhabitants of one community may, like the rest of their behavior, be hard for inhabitants of the other community to predict
+> In a recent paper, nicely entitled "A Nice Derangement of Epitaphs", Davidson tries to undermine the notion of languages as entities by developing the notion of what he calls "a passing theory" about the noises and inscriptions presently being produced by a fellow human. Think of such a theory as part of a larger "passing theory" about this person's total behavior—a set of guesses about what she will do under what conditions. Such a theory is "passing" because it must constantly be corrected to allow for mumbles, stumbles, malapropisms, metaphors, tics, seizures, psychotic symptoms, egregious stupidity, strokes of genius, and the like.
+>
+> To make things easier, imagine that I am forming such a theory about the current behavior of a native of an exotic culture into which I have unexpectedly parachuted. This strange person, who  presumably finds me equally strange, will simultaneously be busy forming a theory about my behavior. If we ever succeed in communicating easily and happily, it will be because her guesses about what I am going to do next, including why: noises I am going to make next, and my own expectations about what. I shall do or say under certain circumstances, come more or less to coincide, and because the converse is also true. She and I are coping with each other as we might with mangoes or boa constrictor \[snake\]—we are trying not to be taken by surprise. To came to say that we speak the same language is to say, as Davidson puts it, that "we tend to converge on passing theories" Davidson's point is that all "two people need, if they are to understand one another through speech, is the ability to converge on passthing theories from utterance to utterance."
+>
+> Davidson's account of linguistic communication dispenses with the picture of language as a third thing intervening between self and reality, and of different languages as barriers between persons or cultures. To say that one's previous language was inappropriate for dealing with some segment of the world (for example, the starry heavens above, or the raging passions within) is just to say that one is now, having learned a new language, able to handle that segment more easily. To say that two communities have trouble getting along because the words they use are so hard to translate into each other is just to say that the linguistic behavior of inhabitants of one community may, like the rest of their behavior, be hard for inhabitants of the other community to predict
 
 Imre Lakatos's philosophy of science provides a complementary perspective on the progressive refinement of knowledge claims. Rather than treating semantic correspondences as simply true or false, semantic stabilisation treats them as hypotheses that may become increasingly corroborated or increasingly challenged as new evidence emerges.
 
 > ... the typical descriptive unit of great scientific achievements is not an isolated hypothesis but rather a research programme. Science is not simply trial and error, a series of conjectures and refutations. ‘All swans are white’ may be falsified by the discovery of one black swan. But such trivial trial and error does not rank as science. Newtonian science, for instance, is not simply a set of four conjectures—the three laws of mechanics and the law of gravitation. These four laws constitute only the ‘hard core’ of the Newtonian programme. But this hard core is tenaciously protected from refutation by a vast ‘protective belt’ of auxiliary hypotheses. And, even more importantly, the research programme also has a ‘heuristic’, that is, a powerful problem-solving machinery, which, with the help of sophisticated mathematical techniques, digests anomalies and even turns them into positive evidence. For instance, if a planet does not move exactly as it should, the Newtonian scientist checks his conjectures concerning atmospheric refraction, concerning propaga­tion of light in magnetic storms, and hundreds of other conjectures which are all part of the programme. He may even invent a hitherto unknown planet and calculate its position, mass and velocity in order to explain the anomaly.
 
 Together, these perspectives encourage an understanding of semantic stabilisation as an iterative process of interpretation, review, corroboration, and revision. Stabilisation does not conclude inquiry. On the contrary, successful stabilisation often creates new opportunities for inference, new questions, and new avenues of investigation.
+
+## Semantic Models, Ontologies, and Interoperability
+
+This chapter would explain that semantic stabilisation operates on three layers:
+
+- Conceptual models and ontologies
+- Semantic stabilisation processes
+- Operational knowledge systems
+
+and then explain that the packages mostly address the second layer.
+
+### Semantic Layering and Conceptual Models
+
+A recurring theme throughout this research programme is that semantic interoperability cannot be reduced to data formats or technical standards alone. Interoperability emerges through the interaction of conceptual models, ontologies, governance arrangements, and practical use cases.
+
+This perspective is informed by the layered architecture of the Semantic Web, where identifiers, vocabularies, ontologies, inference mechanisms, and user-facing applications operate as interconnected but distinct components of a larger knowledge infrastructure. Similar principles can be found in the European Interoperability Framework, which distinguishes legal, organisational, semantic, and technical layers of interoperability.
+
+Rather than pursuing universal ontology alignment, this research programme investigates the use of semantic layering and reusable conceptual patterns that enable interoperability among heterogeneous knowledge systems while preserving contextual differences.
+
+This work has involved the development, adaptation, and evaluation of conceptual models across several domains, including:
+
+- statistical information systems based on SDMX and DDI;
+- sustainability and environmental reporting frameworks;
+- the Open Music Ontology and related rights-management vocabularies that provide briding from existing ontologies, and non-ontological metadata standards, particularly in DDEX;
+- Records in Contexts (RiC) and archival knowledge systems;
+- Wikibase-based knowledge graphs and namespace infrastructures;
+- multilingual cultural heritage thesauri and authority systems.
+
+The objective of these activities is not the creation of new ontologies as an end in themselves. Instead, conceptual models are treated as stabilisation artefacts that make semantic correspondence possible among observations, records, datasets, entities, and services operating across institutional and disciplinary boundaries.
+
+Following the approach developed in recent work on federated cultural heritage infrastructures (see *Federating Open Knowledge through Wikibase: The Case of The Finno-Ugric Data Sharing Space* @sec-publication-dnhb-2025), particular emphasis is placed on modular ontological patterns, multilingual vocabularies, semantic layering, and pragmatic interoperability rather than comprehensive global alignment.
+
+From the perspective of semantic stabilisation, conceptual models provide the semantic substrate on which harmonisation, federation, provenance reconstruction, contextualisation, and AI-assisted interpretation become possible.
 
 ## Reproducible Methodological Approach
 
@@ -82,6 +121,8 @@ The Eviota prototype was originally developed through a Music Moves Europe innov
 
 If `iotables` stabilises official statistical classifications and `retroharmonize` stabilises observations collected in separate research processes, Eviota stabilises semantic correspondences between organisational information systems and external statistical reference systems.
 
+Past projects: - [Music Eviota](#sec-music-eviota)
+
 ### The dataset Package
 
 The `dataset` package emerged from several years of work on statistical harmonisation, survey integration, cultural heritage data, and semantic interoperability. While earlier packages addressed specific semantic stabilisation problems, `dataset` seeks to provide a general semantic framework for representing, documenting, and exchanging structured data.
@@ -94,7 +135,7 @@ The `dataset` package addresses this limitation by extending tidy datasets with 
 
 From the perspective of semantic stabilisation, the package introduces the concept of a semantic dataset: a dataset in which observations are accompanied by machine-readable definitions, provenance statements, validity constraints, and contextual information that allow their meaning to remain stable across users, software environments, and time.
 
-The package also supports the serialisation of semantic datasets into RDF-based representations that expose these semantic relationships through internationally recognised standards. This enables interoperability with Linked Open Data environments, knowledge graphs, statistical dissemination systems, and digital humanities infrastructures. In practical terms, the package allows researchers to create dataset publications that are compatible with infrastructures based on standards such as the Statistical Data and Metadata Exchange (SDMX) and the Data Documentation Initiative (DDI), both of which underpin large-scale data exchange among official statistical agencies and research repositories.
+The package also supports the serialisation of semantic datasets into RDF-based representations that expose these semantic relationships through internationally recognised standards. This enables interoperability with Linked Open Data environments, knowledge graphs, statistical dissemination systems, and digital humanities infrastructures. In practical terms, the package allows researchers to create dataset publications that are compatible with infrastructures based on standards such as the *Statistical Data and Metadata Exchange* (SDMX) and the *Data Documentation Initiative* (DDI), both of which underpin large-scale data exchange among official statistical agencies and research repositories.
 
 The `dataset` package was peer-reviewed through the rOpenSci software review process and released on CRAN. Its development was partly supported through the OpenMuse Horizon Europe Research and Innovation Action project, where the need arose to publish complex cultural and creative industry datasets in a form that remained understandable, reusable, and semantically stable beyond their original analytical context.
 
@@ -128,7 +169,9 @@ The long-term objective is to publish wbfederate as a peer-reviewed CRAN package
 
 The emerging `fscontext` package extends the semantic dataset philosophy into the domain of archives, libraries, museums, repositories, and born-digital collections. While earlier packages focus on stabilising classifications, observations, datasets, and knowledge graph entities, fscontext investigates the stabilisation of contextual evidence.
 
-The package is informed by the Records in Contexts (RiC) conceptual model and ontology, which reconceptualises *archival description* as a network of relationships among records, agents, places, events, functions, and collections. RiC reflects a broader transition from isolated catalogues and inventories towards interconnected knowledge systems in which materials held by different institutions can be understood and interpreted within a shared contextual framework.
+The package is informed by the Records in Contexts (RiC) conceptual model and ontology[^innovation-1], which reconceptualises *archival description* as a network of relationships among records, agents, places, events, functions, and collections. RiC reflects a broader transition from isolated catalogues and inventories towards interconnected knowledge systems in which materials held by different institutions can be understood and interpreted within a shared contextual framework.
+
+[^innovation-1]: *Records in Contexts* aims to replace the former ISAD(G) and related standards [@RiC-CM_1_0].
 
 Many contemporary cultural heritage challenges arise before semantic integration becomes possible. Archives, museums, libraries, and research collections frequently contain heterogeneous mixtures of inventories, spreadsheets, finding aids, filesystem structures, digital surrogates, correspondence, and other partially documented resources. These materials often contain valuable contextual information, but that information is dispersed across formats, systems, languages, and institutional traditions.
 
