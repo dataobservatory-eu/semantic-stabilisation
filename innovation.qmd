@@ -73,6 +73,8 @@ The research programme extends this ecosystem through new software libraries, me
 
 ### The iotables Package
 
+[![](png/software/iotables_094.png){fig-alt="The iotables package provides a reproducible toolkit for working with symmetric input-output tables (SIOTs) and related satellite accounts."}](https://iotables.dataobservatory.eu/)
+
 The [iotables](https://iotables.dataobservatory.eu/) package provides a reproducible toolkit for working with symmetric input-output tables (SIOTs) and related satellite accounts. These statistical systems constitute some of the most complex official statistical products, integrating economic, environmental, demographic, and industrial information into a coherent framework.
 
 Most official statistics are disseminated as multidimensional data cubes that allow filtering and aggregation across dimensions such as geography, industry, population groups, or time. Symmetric input-output tables go further by linking production, consumption, income generation, taxation, trade, material use, and environmental impacts into a single analytical system grounded in Nobel Prize-winning economic theory.
@@ -84,6 +86,8 @@ Although `iotables` contains analytical functions, a significant part of its con
 In this sense, `iotables` can be understood as an early semantic stabilisation toolkit. Before economic, environmental, or social inferences can be drawn from the data, the semantic meaning of the underlying observations must be established and maintained consistently across multiple statistical systems. You can access the `iotables` product page on [iotables.dataobservatory.eu](https://iotables.dataobservatory.eu/). The product page consists of tutorials, cross-reference with the EU and UN statistical handbooks on the topic, and a case study of environmental impact assessment.
 
 ### The retroharmonize Package
+
+[![The goal of retroharmonize is to facilitate retrospective (ex-post) harmonization of survey data in a reproducible manner.](png/software/retroharmonize_028.png){fig-alt="The goal of retroharmonize is to facilitate retrospective (ex-post) harmonization of survey data in a reproducible manner."}](https://retroharmonize.dataobservatory.eu/)
 
 The [retroharmonize](https://retroharmonize.dataobservatory.eu/) package addresses a more demanding semantic stabilisation problem than `iotables`. Rather than harmonising statistical classifications and taxonomies within an established statistical framework, it treats independently collected survey datasets as candidates for semantic correspondence and integration.
 
@@ -121,7 +125,9 @@ The Eviota prototype was originally developed through a Music Moves Europe innov
 
 If `iotables` stabilises official statistical classifications and `retroharmonize` stabilises observations collected in separate research processes, Eviota stabilises semantic correspondences between organisational information systems and external statistical reference systems.
 
-Past projects: - [Music Eviota](#sec-music-eviota)
+Past projects:
+
+- [Music Eviota](#sec-music-eviota)
 
 ### The dataset Package
 
@@ -151,7 +157,7 @@ Many institutions now maintain their own Wikibase installations alongside Wikida
 
 This creates a fundamental federation problem. Although it is technically straightforward to exchange statements between Wikibase instances through the Wikidata Action API, semantic correspondence cannot be assumed merely because two systems use similar labels, identifiers, or properties.
 
-A human curator working in OpenRefine can quickly recognise that "Paris" may refer either to the capital of France or to Paris, Texas. Similarly, a curator can determine whether a particular Béla Bartók identifier refers to the composer, a recording, a publication, or an archival collection. Automated synchronisation processes lack this contextual understanding unless explicit stabilisation mechanisms are introduced.
+A human curator working in OpenRefine can quickly recognise that "Paris" may refer either to the capital of France or to Paris, Texas. Similarly, a curator can determine whether a particular *Béla Bartók* identifier refers to the composer, a recording, a publication, or an archival collection. Automated synchronisation processes lack this contextual understanding unless explicit stabilisation mechanisms are introduced.
 
 The central methodological challenge addressed by wbfederate is therefore not data exchange but semantic stabilisation under conditions of partial correspondence. Rather than assuming global ontology alignment, the package focuses on identifying sufficiently stable correspondences among entities, properties, classifications, and graph structures to support specific federation tasks.
 
