@@ -22,9 +22,17 @@ The article demonstrates how dress history and textile-related research can be e
 
 Co-authors: Ieva Pigozne
 
-### A szlovák adatkicserélési tér magyarországi föderációjának lehetőségei
+### A szlovák adatkicserélési tér magyarországi föderációjának lehetőségei {#sec-networkshop-publication}
 
-The aim of the `Slovak Comprehensive Music Database` (SKCMDb) is to provide a trustworthy description and easy access to all music created on the territory of the modern Slovak Republic or created by musicians who have lived in Slovakia, use the Slovak language or claim Slovak identity. It does not aim to define „Slovakness” in legal or ethnomusicological terms; it wants to make the new music made in the country visible and provide access to its music heritage, including the heritage of its minority communities. The linked databases, supported by a data sharing space, create an unprecedented undertaking that aims for organisational, legal, semantic, and technical interoperability among the data systems of Slovak public institutions and the rights management organisations and enterprises of the private sector. My conference lecture and publication focused on its replicability and the possibility of data federation with Hungarian music data owners.
+The aim of the `Slovak Comprehensive Music Database` (SKCMDb) is to provide a trustworthy description and easy access to all music created on the territory of the modern Slovak Republic or created by musicians who have lived in Slovakia, use the Slovak language or claim Slovak identity. It does not aim to define „Slovakness” in legal or ethnomusicological terms; it wants to make the new music made in the country visible and provide access to its music heritage, including the heritage of its minority communities. The linked databases, supported by a data sharing space, create an unprecedented undertaking that aims for organisational, legal, semantic, and technical interoperability among the data systems of Slovak public institutions and the rights management organisations and enterprises of the private sector. My conference lecture and publication focused on its replicability and the possibility of data federation with Hungarian music data owners[^research-1].
+
+[^research-1]: *A szlovák adatkicserélési tér magyarországi föderációjának lehetőségei* [@antal_hungarnet_2024]
+
+### Pilot Program for Novel Music Industry Statistical Indicators in the Slovak Republic
+
+Abstract here.[^research-2]
+
+[^research-2]: *Pilot Program for Novel Music Industry Statistical Indicators in the Slovak Republic* [@slovak-cult-stat-pilot]; *Retrospective Harmonisation of the KULT Slovak Cultural Surveys* [@antal_kult_harmonization_2023]
 
 ### Ensuring the Visibility and Accessibility of European Creative Content on the World Market: The Need for Copyright Data Improvement in the Light of New Technologies
 
@@ -138,62 +146,64 @@ CEEMID fulfils its roles with a very thorough exploitation of the EU’s 17-year
 
 In our vision, this data collection and integration, i.e. Pillars 1-3 should be available for all music stakeholders, should remain public and publicly funded. The last Pillar of the observatory, innovation, is where private entities should compete. The founders of CEEMID and Consolidated Independent believe that this report demonstrates the business and policy benefits of such a system with the analysis of the Central & Eastern European music markets. We believe that this way CEEMID is in a position to serve most of the planned functions of the envisioned European Music Observatory, and we are looking for ways to make either our thousands of indicators, or our data collection and integration software open source and available for all stakeholders in the EU and its neighbours. CEEMID was born out of necessity to level out the different levels of public research and statistical coverage of the EU member states. In our view, private entities in the future should focus their investments in Pillar 4 of the planned observatory, i.e. competing in innovation with creating new models, algorithms and services based on data that is available throughout the European Union without giving further advantage to the already mature markets.
 
-## Presentations
+### The Growth of the Hungarian Popular Music Repertoire: Who Creates It And How Does It Find An Audience
 
-### 2026
+Chapter in the Studies in Popular Music: Made in Hungary, Routledge[^research-3].
 
-### 2025
+[^research-3]: *The Growth of the Hungarian Popular Music Repertoire: Who Creates It And How Does It Find An Audience* [@antal_growth_2017]
 
-*WikiMuseum = GLAM Wiki + Wikibase + Data Sharing Space*: Our presentation shows how Wikimedia tools and federated dataspace design can reconnect dispersed heritage of small communities, such as the Livonians, Võros, Setos, and Maris. We introduce the Wikimuseum exhibition model and the Finno-Ugric Data Sharing Space (FUDSS), both designed to combine encyclopedic, archival, museum, and private collections into multilingual, interoperable cultural knowledge graphs. See the [event page](https://reprex.nl/event/2025-09-28_wikimedia_ceem/) and [download the presentation](https://zenodo.org/records/17496740), watch the livestream recording on the event page.
+### Creating better national cultural statistics with Eurobarometer datasets and ESSNet-Culture technical recommendations
 
-*Wikibase as a Data Sharing Space: Connecting Rights, Communities, and GLAM through Federated Infrastructures*: This presentation explores how the Wikibase Suite can function as a rights-aware data-sharing space connecting Wikimedia projects, community archives, and institutional databases. It shows how dispersed cultural heritage of small Finno-Ugric and Baltic communities can be reconnected through interoperable, multilingual knowledge graphs. See the [event page](https://reprex.nl/event/2025_10_31_wikidataconf/) and [download the presentation](https://zenodo.org/records/17496740).
+Poster[^research-4].
 
-
-CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^research-3].
+[^research-4]: Creating better national cultural statistics with Eurobarometer datasets and ESSNet-Culture technical recommendations [@antal_creating_2015]
 
 *Wikimedia CEE Meeting 2025 in Thessaloniki*, and the *Wikidata Conf 2025* online; we have built relationships with various national chapters and the Wikidata and Abstract Wikipedia teams, and joined the Wikidata Ontology Cleanup Task Force and the Wikidata Mereology Task Force to help the coordiantion of our open source technology, data curation and dissemination efforts. [@wikimuseum_2025; @antal_wikidata_conf_2025].
 
 ### 2024
 
-Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^research-1]
+Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^research-5]
+
+[^research-5]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
 
 Echoes/ECCH: The ECHOES (European Cloud for Heritage OpEn Science) policy even and workshop, 12-13 December 2024 at the Royal Institute for Cultural Heritage (KIK-IRPA), Brussels
 
-Our work was presented in the Technology session of the *Wikimedia CEE Meeting 2024* in Istanbul [@@antal_wikimedia_cee_2024]
+Our work was presented in the Technology session of the *Wikimedia CEE Meeting 2024* in Istanbul [\@ @antal_wikimedia_cee_2024]
 
 ### 2023
 
-In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna - for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning. At this stage, we started to record user stories for the design of system competences of the Open Music Europe software ecosystem and the observatory's semantic architecture[^research-7].
+In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna - for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning. At this stage, we started to record user stories for the design of system competences of the Open Music Europe software ecosystem and the observatory's semantic architecture[^research-6].
+
+[^research-6]: The user stories were placed in an OPA compliant folder on GitHub. This work was not carried on after the initiated grant agreement change, when the WP4 did no longer participate in building open source software for this purpose, but we did not abandon the competency requirements [@ome_user_stories].
 
 ### 2022
 
 - 
+
 - ,
-- Hungarian stakeholders interested in replication of the Slovak pilot versions in various meetings throughout 2024 and 2025[^research-2].
 
-- The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^research-4]
-- IAMIC [^research-5]: The *International Association of Music Information Centres* and several key members of the organisation.
-- IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^research-6].
-- Slovak national stakeholders interested in cultural data.[^research-8]
-- Wikimedia community and developers[^research-9].
-- European music industry stakeholders on *LineCheck 2025* [^research-10]
+- Hungarian stakeholders interested in replication of the Slovak pilot versions in various meetings throughout 2024 and 2025[^research-7].
 
-[^research-1]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
+- The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^research-8]
 
-[^research-2]: *Federation possibilities of the Slovak music data sharing space in Hungary* [@antal_2024_networkshop]
+- IAMIC [^research-9]: The *International Association of Music Information Centres* and several key members of the organisation.
 
-[^research-3]: [Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting](https://www.openmuse.eu/protecting-creators-rights-in-the-ai-era-openmuse-at-the-european-committee-meeting/), our presentation [@openmuse_cisac_ec_2025]
+- IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^research-10].
 
-[^research-4]: We received useuful feedback for this Green Ppaer from the project and see further synergies in presenting our policy findings together. <https://fairmuse.eu/about/>
+- Slovak national stakeholders interested in cultural data.[^research-11]
 
-[^research-5]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@antal_iamic_presentation_2024; @skcmdb_iamic_poster_2024].
+- Wikimedia community and developers.
 
-[^research-6]: We presented and discussed these ideas at the *International Association of Music Libraries, Archives and Documentation Centers* on the General Assembly and Annual Conference 7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
+- European music industry stakeholders on *LineCheck 2025* [^research-12]
 
-[^research-7]: The user stories were placed in an OPA compliant folder on GitHub. This work was not carried on after the initiated grant agreement change, when the WP4 did no longer participate in building open source software for this purpose, but we did not abandon the competency requirements [@ome_user_stories].
+[^research-7]: *Federation possibilities of the Slovak music data sharing space in Hungary* [@antal_2024_networkshop]
 
-[^research-8]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
+[^research-8]: We received useuful feedback for this Green Ppaer from the project and see further synergies in presenting our policy findings together. <https://fairmuse.eu/about/>
 
-[^research-9]: 
+[^research-9]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@antal_iamic_presentation_2024; @skcmdb_iamic_poster_2024].
 
-[^research-10]: *Open Access Music Dataspaces – Open Music Observatory* presented on LineCheck 2025 [@miks_antal_2025]
+[^research-10]: We presented and discussed these ideas at the *International Association of Music Libraries, Archives and Documentation Centers* on the General Assembly and Annual Conference 7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
+
+[^research-11]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
+
+[^research-12]: *Open Access Music Dataspaces – Open Music Observatory* presented on LineCheck 2025 [@miks_antal_2025]

@@ -16,6 +16,8 @@ The research programme is grounded in operational data infrastructures and real-
 
 These domains provide practical settings in which semantic stabilisation problems arise naturally and can be observed under realistic conditions.
 
+I am frequent speaker at various professional events. My presentations are almost always availabe with a bit of context, and sometimes with recorded livestreams, on the Reprex website. They are usually also deposited to Zenodo with a DOI.
+
 ## Rights-management and authority control
 
 - [Trustworthy AI-Supported Copyright Infrastructure](https://reprex.nl/event/2026-05-07_collective-management-ai/), Presentation At Collective Management and AI: Challenges and Perspectives, May 7, 2026 10:00 AM, Nicosia/online.
@@ -24,29 +26,49 @@ These domains provide practical settings in which semantic stabilisation problem
 
 - [Workshop on Metadata Sharing for Small Labels, Libraries, and Collectors](https://reprex.nl/event/2025-09-12-magyarzenehaza/), House of Music, Sep 12, 2025, Budapest.
 
-- [Interoperability of Music Libraries and Archives with Public and Private Music Services](https://reprex.nl/event/2025-07-07-iaml2025/), Jul 7, 2025, IAML 2025, Mozarteum University, Salzburg. Presentation at the annual gathering of music libraries and poster. 
+- [Interoperability of Music Libraries and Archives with Public and Private Music Services](https://reprex.nl/event/2025-07-07-iaml2025/), Jul 7, 2025, IAML 2025, Mozarteum University, Salzburg. Presentation at the annual gathering of music libraries and poster.
 
-- CISAC
+- CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^empirical-1].
 
 - [SKCMDb Presentation on IAMIC 2024](https://reprex.nl/event/2024-11-21_iamic/)
 
+- [Hackathon Registers of Cultural Entities](https://reprex.nl/event/2024-04-13_hacknime/), Apr 12, 2024 9:00 AM, Bratislava.
+
+- [From Slovakia Towards a European Music Dataspace](https://reprex.nl/event/2024-04-05_nws2024/), Apr 5, 2024, [Networkshop'24](https://nws.comp-rend.hu/), Eszterházy Károly Katolikus Egyetem, Eger. See also the peer-reviewed conference paper (in Hungarian: @sec-networkshop-publication)
+
+[^empirical-1]: [Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting](https://www.openmuse.eu/protecting-creators-rights-in-the-ai-era-openmuse-at-the-european-committee-meeting/), our presentation [@openmuse_cisac_ec_2025]
 
 ## Graph federation and data governance
 
-- [Wikibase as a Data Sharing Space: Connecting Rights, Communities, and GLAM through Federated Infrastructures](https://reprex.nl/event/2025_10_31_wikidataconf/), WikidataConf 2025, Oct 31, 2025 6:00 PM, online. 
+- [Wikibase as a Data Sharing Space: Connecting Rights, Communities, and GLAM through Federated Infrastructures](https://reprex.nl/event/2025_10_31_wikidataconf/), WikidataConf 2025, Oct 31, 2025 6:00 PM, online.
 
 - [Brace for Impact: Trustworthy AI for Good](https://reprex.nl/event/2025_10_30_impactfest/) - [ImpactFest 2025](https://www.impactfest.nl/want-to-be-part-of-impactfest-2025/) Oct 30, 2025 2:15 PM, The Hague. During ImpactFest 2025, Reprex participated in the expert session ‘Brace for Impact: Trustworthy AI for Good,’ where data innovators and entrepreneurs discussed practical challenges around data access, reliability, and governance.
 
-- [WikiMuseum = GLAM Wiki + Wikibase + Data Sharing Space](https://reprex.nl/event/2025-09-28_wikimedia_ceem/), W[ikimedia CEE 2025 Meeting](https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/), Thessaloniki, Greece. How can we make GLAM institutions and private collectors work with each other on joint Wikimedia GLAM on a joint exhibition?
+- . How can we make GLAM institutions and private collectors work with each other on joint Wikimedia GLAM on a joint exhibition?
 
-## Cultural Heritage
+- [Building a music data sharing space with Wikibase: A use case to extend the world’s largest open database](https://reprex.nl/event/2024-09-21_wikimedia_cee/), [Wikimedia CEE Meeting 2024](https://reprex.nl/event/2024-09-21_wikimedia_cee/), Müze Gazhane, Kadıköy, İstanbul[^empirical-2].
+
+- [Federating the Slovak Music Dataspace: Replication in Hungary](https://reprex.nl/event/2024-06-14_eltedh/), Jun 14, 2024 2:00 PM, ELTE Data Stewardship Meetup, ELTE Digital Humanities Department, Budapest.
+
+- [Dataweek²⁴: Introducing a new European music dataspace](https://reprex.nl/event/2024-06-05_dataweek_leuven/)
+
+- [Big Data for All: Building Collaborative Data Observatories, Eindhoven, NL](https://reprex.nl/event/2022-11-03_eindhoven/), Nov 3, 2022, Eindhoven Innovation Café Breakout Talks, Eindhoven.
+
+[^empirical-2]: *Building a Music Data Sharing Space with Wikibase* [@antal_grochal_wikimedia]
+
+## Cultural Heritage {#sec-cult-heritage-presentations}
+
+- [WikiMuseum = GLAM Wiki + Wikibase + Data Sharing Space](https://reprex.nl/event/2025-09-28_wikimedia_ceem/), [Wikimedia CEE 2025 Meeting](https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/), Thessaloniki, Greece. Our presentation shows how Wikimedia tools and federated dataspace design can reconnect dispersed heritage of small communities, such as the Livonians, Võros, Setos, and Maris. We introduce the Wikimuseum exhibition model and the Finno-Ugric Data Sharing Space (FUDSS), both designed to combine encyclopedic, archival, museum, and private collections into multilingual, interoperable cultural knowledge graphs. See the [event page](#0) and [download the presentation](#0), watch the livestream recording on the event page.
 
 - [TextileBase: Introduction. Federating Open Knowledge About Textiles & Dress History](https://reprex.nl/event/2025-07-10-textilebase/) Jul 10, 2025, ELTE Digital Humanities Lab, Budapest. Showcasing data curation and knowledge accumulation in textile research in contexts where archival depth is shallow and data quality is mixed. Discussing tooling that works outside the computer lab, and stays resilient enough to to work for researchers and cultural institutions across languages, countries, and platforms.
 
-- [Finno-Ugric Data Sharing Space: Federating Open Knowledge About Contemporary and Historic Cultural Practices in the Wikibase System](https://reprex.nl/event/2025-03-07_dreams/), 
-[Digital Dreams And Practices (DNBH2025)](https://dhnb.eu/conferences/dhnb2025/), Estonian National Museum, Tartu. Conference presentation and poster.  See our paper, too: @sec-publication-dnhb-2025.
+- [Finno-Ugric Data Sharing Space: Federating Open Knowledge About Contemporary and Historic Cultural Practices in the Wikibase System](https://reprex.nl/event/2025-03-07_dreams/), [Digital Dreams And Practices (DNBH2025)](https://dhnb.eu/conferences/dhnb2025/), Estonian National Museum, Tartu. Conference presentation and poster. See our paper, too: @sec-publication-dnhb-2025.
 
 - Mari exhibition
+
+## Statistical Innovation & Data Production
+
+- [Music and Creative Industry Indicators from Needs Assessment to Automated Production, Bratislava, SK]()
 
 ## Archival studies and digital humaniteis
 
