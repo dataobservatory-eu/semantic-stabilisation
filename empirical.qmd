@@ -15,3 +15,39 @@ The research programme is grounded in operational data infrastructures and real-
 - semantic validation and review workflows.
 
 These domains provide practical settings in which semantic stabilisation problems arise naturally and can be observed under realistic conditions.
+
+## Rights-management and authority control
+
+- [Trustworthy AI-Supported Copyright Infrastructure](https://reprex.nl/event/2026-05-07_collective-management-ai/), Presentation At Collective Management and AI: Challenges and Perspectives, May 7, 2026 10:00 AM, Nicosia/online.
+
+- [Open Access Music Dataspaces – Open Music Observatory](https://reprex.nl/event/2025-11-20_linecheck/), Nov 20, 2025 11:00 AM, on [Linecheck 2025](https://www.linecheck.it/meeting/program/from-data-to-discovery-towards-the-future-european-music-landscape/), Milano, Italy.
+
+- [Workshop on Metadata Sharing for Small Labels, Libraries, and Collectors](https://reprex.nl/event/2025-09-12-magyarzenehaza/), House of Music, Sep 12, 2025, Budapest.
+
+- [Interoperability of Music Libraries and Archives with Public and Private Music Services](https://reprex.nl/event/2025-07-07-iaml2025/), Jul 7, 2025, IAML 2025, Mozarteum University, Salzburg. Presentation at the annual gathering of music libraries and poster. 
+
+- CISAC
+
+- [SKCMDb Presentation on IAMIC 2024](https://reprex.nl/event/2024-11-21_iamic/)
+
+
+## Graph federation and data governance
+
+- [Wikibase as a Data Sharing Space: Connecting Rights, Communities, and GLAM through Federated Infrastructures](https://reprex.nl/event/2025_10_31_wikidataconf/), WikidataConf 2025, Oct 31, 2025 6:00 PM, online. 
+
+- [Brace for Impact: Trustworthy AI for Good](https://reprex.nl/event/2025_10_30_impactfest/) - [ImpactFest 2025](https://www.impactfest.nl/want-to-be-part-of-impactfest-2025/) Oct 30, 2025 2:15 PM, The Hague. During ImpactFest 2025, Reprex participated in the expert session ‘Brace for Impact: Trustworthy AI for Good,’ where data innovators and entrepreneurs discussed practical challenges around data access, reliability, and governance.
+
+- [WikiMuseum = GLAM Wiki + Wikibase + Data Sharing Space](https://reprex.nl/event/2025-09-28_wikimedia_ceem/), W[ikimedia CEE 2025 Meeting](https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/), Thessaloniki, Greece. How can we make GLAM institutions and private collectors work with each other on joint Wikimedia GLAM on a joint exhibition?
+
+## Cultural Heritage
+
+- [TextileBase: Introduction. Federating Open Knowledge About Textiles & Dress History](https://reprex.nl/event/2025-07-10-textilebase/) Jul 10, 2025, ELTE Digital Humanities Lab, Budapest. Showcasing data curation and knowledge accumulation in textile research in contexts where archival depth is shallow and data quality is mixed. Discussing tooling that works outside the computer lab, and stays resilient enough to to work for researchers and cultural institutions across languages, countries, and platforms.
+
+- [Finno-Ugric Data Sharing Space: Federating Open Knowledge About Contemporary and Historic Cultural Practices in the Wikibase System](https://reprex.nl/event/2025-03-07_dreams/), 
+[Digital Dreams And Practices (DNBH2025)](https://dhnb.eu/conferences/dhnb2025/), Estonian National Museum, Tartu. Conference presentation and poster.  See our paper, too: @sec-publication-dnhb-2025.
+
+- Mari exhibition
+
+## Archival studies and digital humaniteis
+
+- [From Translation to Metadata Repair: Archival Visibility of Finno-Ugric Heritage in a Multilingual Knowledge Graph](https://reprex.nl/event/2026-05-27_pont_forditva/), ELTE BTK, Pont Fordítva translation studies conference, May 27, 2026.
