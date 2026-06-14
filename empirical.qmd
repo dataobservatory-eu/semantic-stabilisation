@@ -18,6 +18,12 @@ These domains provide practical settings in which semantic stabilisation problem
 
 I am frequent speaker at various professional events. My presentations are almost always availabe with a bit of context, and sometimes with recorded livestreams, on the Reprex website. They are usually also deposited to Zenodo with a DOI.
 
+::: callout-caution
+## Incomplete
+
+I am currently transfer here in a consistent manner the public presentations and reports of the past 10 years. You can find a lot more on [https://reprex.nl/](https://reprex.nl/p) and <https://danielantal.eu/>.  I am planning to finish the migration by 21 June 2026.
+:::
+
 ## Rights-management and authority control
 
 - [Trustworthy AI-Supported Copyright Infrastructure](https://reprex.nl/event/2026-05-07_collective-management-ai/), Presentation At Collective Management and AI: Challenges and Perspectives, May 7, 2026 10:00 AM, Nicosia/online.
@@ -56,7 +62,7 @@ I am frequent speaker at various professional events. My presentations are almos
 
 [^empirical-2]: *Building a Music Data Sharing Space with Wikibase* [@antal_grochal_wikimedia]
 
-## Cultural Heritage {#sec-cult-heritage-presentations}
+## Cultural and Creative Industries and Secture, Open Cultural Heritage {#sec-cult-heritage-presentations}
 
 - [WikiMuseum = GLAM Wiki + Wikibase + Data Sharing Space](https://reprex.nl/event/2025-09-28_wikimedia_ceem/), [Wikimedia CEE 2025 Meeting](https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/), Thessaloniki, Greece. Our presentation shows how Wikimedia tools and federated dataspace design can reconnect dispersed heritage of small communities, such as the Livonians, Võros, Setos, and Maris. We introduce the Wikimuseum exhibition model and the Finno-Ugric Data Sharing Space (FUDSS), both designed to combine encyclopedic, archival, museum, and private collections into multilingual, interoperable cultural knowledge graphs. See the [event page](#0) and [download the presentation](#0), watch the livestream recording on the event page.
 
@@ -64,12 +70,16 @@ I am frequent speaker at various professional events. My presentations are almos
 
 - [Finno-Ugric Data Sharing Space: Federating Open Knowledge About Contemporary and Historic Cultural Practices in the Wikibase System](https://reprex.nl/event/2025-03-07_dreams/), [Digital Dreams And Practices (DNBH2025)](https://dhnb.eu/conferences/dhnb2025/), Estonian National Museum, Tartu. Conference presentation and poster. See our paper, too: @sec-publication-dnhb-2025.
 
+- [Feasibility Study On Promoting Slovak Music In Slovakia & Abroad](https://reprex.nl/publication/listen_local_2020/) (translator: Dáša Bulíková). Why are the total market shares of Slovak music relatively low both on the domestic and the foreign markets? How can we measure the market share of the Slovak music in the domestic and foreign markets? We offer some answers and solution based on empirical research and with the creation of a database and an AI application. See in the research context: @sec-slovak-feasibility-study
+
+- [Central & Eastern European Music Industry Report 2020](https://reprex.nl/publication/ceereport_2020/): The results of the first Hungarian, Slovak, Croatian and Czech music industry reports are compared with Armenian, Austrian, Bulgarian, Lithuanian, Serbian and Slovenian data and findings.
+
 - Mari exhibition
 
 ## Statistical Innovation & Data Production
 
 - [Music and Creative Industry Indicators from Needs Assessment to Automated Production, Bratislava, SK]()
 
-## Archival studies and digital humaniteis
+## Collections, Museum, Archival and Library Studies
 
 - [From Translation to Metadata Repair: Archival Visibility of Finno-Ugric Heritage in a Multilingual Knowledge Graph](https://reprex.nl/event/2026-05-27_pont_forditva/), ELTE BTK, Pont Fordítva translation studies conference, May 27, 2026.

@@ -13,3 +13,9 @@ When semantic correspondence must be established systematically, repeatedly, or 
 The objective is not to eliminate ambiguity entirely but to bound ambiguity sufficiently for a given purpose, allowing both human and computational actors to reason about an object in a transparent and reproducible manner.
 
 Semantic stabilisation is therefore a process of uncertainty reduction rather than certainty creation. The output is not necessarily a final truth claim, but a semantic object whose remaining uncertainty is explicit, reviewable, and manageable.
+
+::: callout-caution
+## Incomplete
+
+I am currently transfer here in a consistent manner the public presentations and reports of the past 10 years with future plans. You can find a lot more on [https://reprex.nl/](https://reprex.nl/p) and <https://danielantal.eu/>. I am planning to finish the migration by 21 June 2026.
+:::
