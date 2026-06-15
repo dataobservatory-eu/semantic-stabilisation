@@ -45,7 +45,14 @@ Finno-Ugric Dataspace: interconnecting the tangible and intangible heritage of r
 
 ### OpenHerit (Awareded Projects from the Second Call in Echoes-ECCCH)
 
-### Andrássy Archives
+### Andrássy Archives {#sec-project-andrassy}
+
+The Collection of the _Gyula Andrássy Foundation_ contains approximately two million digital objects representing archival records, photographs, maps, manuscripts, and related cultural heritage materials. Creating a traditional archival description for a collection of this size would require tens of millions of individual metadata statements and, under conventional workflows, hundreds of archivist-years of work. The project therefore addresses a fundamental challenge facing many large-scale cultural heritage collections: how to make vast digital holdings discoverable, researchable, and interoperable when comprehensive manual description is not economically feasible.
+
+The proposed solution is a multi-stage semantic stabilisation workflow that combines persistent identification, automated metadata extraction, provenance-aware knowledge graphs, and human expert review. Rather than attempting to create complete descriptions immediately, the system progressively transforms partially known digital objects into increasingly rich semantic objects. Artificial intelligence assists in identifying document types, languages, dates, names, and inconsistencies, while archivists and researchers validate, refine, and enrich the resulting descriptions. The workflow explicitly recognises different levels of confidence, allowing collections to become searchable and usable long before complete scholarly description is achieved.
+
+The project serves as a real-world laboratory for semantic stabilisation in digital humanities and cultural heritage. It explores how archival, library, and museum materials can be connected across institutions, languages, and descriptive traditions using Linked Open Data principles and knowledge graph technologies. Beyond the Andrássy collection itself, the project investigates how large-scale cultural heritage collections can be transformed from isolated digital files into contextualised and interoperable knowledge systems that support both human scholarship and machine-assisted discovery.
+
 
 ### Hungarian Motion Picture Data Sharing Space
 
@@ -61,7 +68,7 @@ OpenMusE brought  together music industry stakeholders and researchers from 11 E
 
 Using transparent methods and tools, OpenMusE maps the policy as well as the data landscape. The project bridges data gaps and empowers stakeholders and policymakers to take data-driven actions. Our project is grounded on principles of open policy analysis, open science, and open-source software development. We work with stakeholders to identify data gaps on the EU, national, and regional levels; co-create indicators and methods for bridging them; develop free software tools for data collection and analysis; and report our findings and every step taken to reach them.
 
-Using the OMO (Open Music Observatory) and our open-source software, music SMEs without technical departments or expertise will be able to access and analyse open data; model volume and value, including of zero-price uses; create better business models; and generate corporate social responsibility and sustainability reports; all at a fraction of current costs. We validate these tools in four pilot studies that will bring concrete benefits to stakeholders within the project lifespan.
+Using the OMO ([Open Music Observatory](https://openmusicobservatory.eu/)) and our open-source software, music SMEs without technical departments or expertise will be able to access and analyse open data; model volume and value, including of zero-price uses; create better business models; and generate corporate social responsibility and sustainability reports; all at a fraction of current costs. We validate these tools in four pilot studies that will bring concrete benefits to stakeholders within the project lifespan.
 
 ### Music Eviota {#sec-music-eviota}
 
@@ -73,7 +80,20 @@ The Music Eviota project was supported by MusicAIRE. The MusicAIRE grant provide
 
 [Music Eviota](https://reprex.nl/project/musiceviota/)
 
-## SurveyHarmonies
+### Surveyharmonies
+
+Surveyharmonies was developed as a practical framework for increasing the value of survey research through semantic harmonisation and data reuse. The project emerged from a simple observation: many surveys collect information that is conceptually comparable to information already gathered in previous studies, other countries, or other research programmes, yet these data remain disconnected because their semantic correspondence has not been established.
+
+Traditional survey practice treats each fieldwork exercise as a largely self-contained activity. Surveyharmonies approaches survey data as a cumulative knowledge resource. By harmonising concepts, variables, coding schemes, and metadata across independently collected surveys, a single fieldwork exercise can be enriched with observations collected elsewhere and at other times. This allows researchers and organisations to place local observations into broader comparative contexts without repeating expensive data collection efforts.
+
+The methodological foundation of Surveyharmonies is semantic stabilisation. Before survey responses can be compared, combined, or reused, it is necessary to establish whether variables recorded under different names, languages, coding schemes, or institutional contexts represent sufficiently similar concepts. The project therefore combines survey harmonisation, metadata standardisation, codebook reconciliation, and linked data publication into a single workflow.
+
+In practical applications, Surveyharmonies has been used to integrate cultural participation surveys, music consumption surveys, audiovisual sector research, and international comparative survey programmes. By connecting newly collected responses with harmonised historical and international survey data, researchers can move beyond simple local measurements and investigate temporal change, regional differences, and broader comparative patterns.
+
+From the perspective of semantic stabilisation, Surveyharmonies represents one of the earliest practical implementations of the research programme. It demonstrated that semantic correspondence among independently collected observations could be established systematically and reused across projects, thereby transforming isolated survey datasets into cumulative and interoperable knowledge resources.
+
+The project also provided many of the practical challenges that later motivated the development of the retroharmonize and dataset packages, particularly in the areas of concept harmonisation, metadata standardisation, provenance documentation, and reproducible survey integration.
+
 
 ## Listen Local Lithuania
 
