@@ -1,4 +1,4 @@
-# Research and Innovation
+# Research and Innovation Agenda
 
 ```{=html}
 <!---
@@ -6,7 +6,7 @@
 --->
 ```
 
-Semantic stabilisation is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into sufficiently coherent semantic representations that support reproducible inference, communication, and practical decision-making.
+`Semantic stabilisation` is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into sufficiently coherent semantic representations that support reproducible inference, communication, and practical decision-making.
 
 The methodology developed in this research programme is grounded in empirical case studies and implemented through a portfolio of R software libraries. It is inspired by the tidyverse ecosystem and, in particular, Hadley Wickham's influential formulation of the [tidy data paradigm](https://vita.had.co.nz/papers/tidy-data.pdf)[^innovation-1]. Prior to the widespread adoption of tidy data, analytical workflows often involved fragile, poorly documented transformations between heterogeneous data sources, spreadsheets, relational databases, and statistical software. Although the underlying mathematical and database concepts were well understood, they remained inaccessible to many practitioners and difficult to apply consistently in everyday analytical work.
 
@@ -16,7 +16,9 @@ The success of tidy data was not primarily technical but methodological. By redu
 
 Semantic stabilisation addresses a different but analogous problem. If tidy data provides a practical bridge between statistical analysis and relational algebra, semantic stabilisation seeks to provide a practical bridge between heterogeneous observations and semantic knowledge systems. The objective is not merely to transform data into analysable tables, but to transform observations into semantic objects whose meaning, provenance, uncertainty, and relationships can be represented explicitly and reused across systems.
 
-Semantic stabilisation begins where metadata ceases to be treated as a descriptive accessory and becomes a mechanism for establishing semantic correspondence. Just as Wickham changed how many analysts think about datasets, Jeffrey Pomerantz changed how many information scientists think about metadata. One of his enduring contributions is to treat metadata not as a technical add-on, but as a means of making resources understandable, interpretable, and actionable within a community of use.
+Semantic stabilisation begins where metadata ceases to be treated as a descriptive accessory and becomes a mechanism for establishing semantic correspondence. Just as Wickham changed how many analysts think about datasets, Jeffrey Pomerantz changed how many information scientists think about metadata[^innovation-2]. One of his enduring contributions is to treat metadata not as a technical add-on, but as a means of making resources understandable, interpretable, and actionable within a community of use.
+
+[^innovation-2]: Jeffrey Pomerantz: *Metadata* [@pomerantz_metadata_2015]
 
 This distinction is particularly important because many discussions of interoperability implicitly assume that metadata are self-explanatory. In practice, however, metadata themselves often require interpretation. Labels, definitions, classifications, identifiers, provenance statements, and descriptions may be incomplete, ambiguous, multilingual, or context-dependent. The existence of metadata therefore does not guarantee semantic correspondence. Rather, semantic correspondence emerges through a process of stabilisation that makes the meaning, scope, and intended use of metadata sufficiently explicit for communication, reuse, and inference.
 
@@ -72,7 +74,7 @@ Semantic stabilisation therefore operates in two directions. First, it establish
 
 The semantic stabilisation lifecycle is an iterative process through which observations become reusable semantic objects. It begins under conditions of uncertainty, where meaning, identity, and correspondence cannot be taken for granted, and progressively reduces ambiguity through contextualisation, interpretation, review, and reuse.
 
-```
+```         
 Observation
 ↓
 Contextualisation
@@ -91,6 +93,7 @@ Federation
 ↓
 Knowledge inference
 ```
+
 The lifecycle should not be interpreted as a strictly linear workflow. New observations, contextual evidence, competing interpretations, or inference results may require revisiting earlier stages. Semantic stabilisation therefore remains an iterative process in which semantic objects are continuously corroborated, refined, and reused.
 
 ## Methodological Inspirations
@@ -101,10 +104,9 @@ Donald Davidson's concept of the radical interpreter provides a useful metaphor 
 
 Davidson's notion of "passing theories" provides a useful metaphor for semantic stabilisation. Actors do not begin with a shared language or ontology but progressively converge on interpretations that become sufficiently reliable for communication and action.
 
-
->> To make things easier, imagine that I am forming such a theory about the current behavior of a native of an exotic culture into which I have unexpectedly parachuted. This strange person, who  presumably finds me equally strange, will simultaneously be busy forming a theory about my behavior. If we ever succeed in communicating easily and happily, it will be because her guesses about what I am going to do next, including why [...] To came to say that we speak the same language is to say, as Davidson puts it, that "we tend to converge on passing theories" Davidson's point is that all "two people need, if they are to understand one another through speech, is the ability to converge on passthing theories from utterance to utterance."
-> 
-Davidson's account of linguistic communication dispenses with the picture of language as a third thing intervening between self and reality, and of different languages as barriers between persons or cultures. To say that one's previous language was inappropriate for dealing with some segment of the world (for example, the starry heavens above, or the raging passions within) is just to say that one is now, having learned a new language, able to handle that segment more easily. To say that two communities have trouble getting along because the words they use are so hard to translate into each other is just to say that the linguistic behavior of inhabitants of one community may, like the rest of their behavior, be hard for inhabitants of the other community to predict.
+> > To make things easier, imagine that I am forming such a theory about the current behavior of a native of an exotic culture into which I have unexpectedly parachuted. This strange person, who presumably finds me equally strange, will simultaneously be busy forming a theory about my behavior. If we ever succeed in communicating easily and happily, it will be because her guesses about what I am going to do next, including why \[...\] To came to say that we speak the same language is to say, as Davidson puts it, that "we tend to converge on passing theories" Davidson's point is that all "two people need, if they are to understand one another through speech, is the ability to converge on passthing theories from utterance to utterance."
+>
+> Davidson's account of linguistic communication dispenses with the picture of language as a third thing intervening between self and reality, and of different languages as barriers between persons or cultures. To say that one's previous language was inappropriate for dealing with some segment of the world (for example, the starry heavens above, or the raging passions within) is just to say that one is now, having learned a new language, able to handle that segment more easily. To say that two communities have trouble getting along because the words they use are so hard to translate into each other is just to say that the linguistic behavior of inhabitants of one community may, like the rest of their behavior, be hard for inhabitants of the other community to predict.
 
 Imre Lakatos's philosophy of science provides a complementary perspective on the progressive refinement of knowledge claims. Rather than treating semantic correspondences as simply true or false, semantic stabilisation treats them as hypotheses that may become increasingly corroborated or increasingly challenged as new evidence emerges.
 
@@ -114,9 +116,9 @@ Together, these perspectives encourage an understanding of semantic stabilisatio
 
 ### From 5-stars to 8-stars
 
-The semantic staiblisation research and innovation agenda connects directly to the [8-star Linked Open Data model](https://seco.cs.aalto.fi/publications/2024/hyvonen-tuominen-8-star-2024.pdf) developed by Hyvönen and Tuominen[^innovation-2]. Their work argues that the classical 5-star model of Linked Open Data is not sufficient for effective reuse, because it does not adequately address three central problems: explicit data schemas, formal quality against those schemas, and trustworthiness with respect to the real-world phenomena being modelled.
+The semantic staiblisation research and innovation agenda connects directly to the [8-star Linked Open Data model](https://seco.cs.aalto.fi/publications/2024/hyvonen-tuominen-8-star-2024.pdf) developed by Hyvönen and Tuominen[^innovation-3]. Their work argues that the classical 5-star model of Linked Open Data is not sufficient for effective reuse, because it does not adequately address three central problems: explicit data schemas, formal quality against those schemas, and trustworthiness with respect to the real-world phenomena being modelled.
 
-[^innovation-2]: Eero Hyvönen and Jouni Tuominen: *8-star Linked Open Data Model: Extending the 5-star Model for Better Reuse, Quality, and Trust of Data* [@hyvonen_tuominen_8star_2024]
+[^innovation-3]: Eero Hyvönen and Jouni Tuominen: *8-star Linked Open Data Model: Extending the 5-star Model for Better Reuse, Quality, and Trust of Data* [@hyvonen_tuominen_8star_2024]
 
 My research programme approaches the same reproducibility and reuse challenges from a complementary direction. Whereas the 8-star model defines additional publication-level requirements for reusable and trustworthy Linked Open Data, semantic stabilisation investigates the methodological and computational processes required to reach that level of quality. It asks how incomplete, ambiguous, heterogeneous, multilingual, or partially conflicting observations can be transformed into semantic objects whose meaning, provenance, uncertainty, and relationships are explicit enough to support reproducible inference, human review, and data exchange.
 
