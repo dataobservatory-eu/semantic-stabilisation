@@ -28,6 +28,16 @@ This perspective directly informs the development of the `dataset` package (see 
 
 Semantic stabilisation therefore complements tidy workflows by making some of this hidden semantic work explicit.
 
+The tidy data paradigm assumes that observations and variables have already been identified. A row represents an observation, a column represents a variable, and their intersection contains a value. This abstraction is extraordinarily successful because it allows complex analytical workflows to be expressed through a small number of operations. As long as the meaning of observations and variables remains clear within a local analytical context, the workflow can proceed with minimal semantic overhead. In many cases, local row identifiers and variable names can later be connected to persistent identifiers or URIs representing observational units, entities, or concepts, thereby extending local semantic knowledge into a broader knowledge system.
+
+However, many interoperability and reuse problems arise before or after this tidy representation. Before observations can be arranged into rows and variables into columns, it must be established what the observations and variables actually are. Likewise, after analysis has been completed, their meaning must be communicated consistently across systems, languages, communities of use, and technological environments.
+
+Semantic stabilisation therefore focuses on two complementary questions:
+
+1.  **Semantic correspondence:** How do we determine that different observations, identifiers, labels, or descriptions refer to the same underlying semantic object?
+
+2.  **Representation harmonisation:** Once semantic correspondence has been established, how do we represent that semantic object consistently across different contexts of use?
+
 ### Semantic Correspondence
 
 Consider the labels
