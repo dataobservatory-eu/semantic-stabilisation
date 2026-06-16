@@ -8,7 +8,7 @@
 
 `Semantic stabilisation` is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into sufficiently coherent semantic representations that support reproducible inference, communication, and practical decision-making.
 
-The methodology developed in this research programme is grounded in empirical case studies and implemented through a portfolio of R software libraries. It is inspired by the tidyverse ecosystem and, in particular, Hadley Wickham's influential formulation of the [tidy data paradigm](https://vita.had.co.nz/papers/tidy-data.pdf)[^innovation-1]. Prior to the widespread adoption of tidy data, analytical workflows often involved fragile, poorly documented transformations between heterogeneous data sources, spreadsheets, relational databases, and statistical software. Although the underlying mathematical and database concepts were well understood, they remained inaccessible to many practitioners and difficult to apply consistently in everyday analytical work.
+The methodology developed in this research programme is grounded in empirical case studies and implemented through a portfolio of R software libraries. The concept of semantic stabilisation did not precede these software systems; it emerged retrospectively from repeated encounters with structurally similar problems across multiple domains (See later: @sec-reproducible-research-approach). During the development of these R libraries, I was inspired by the fast evolution of the tidyverse ecosystem and, in particular, Hadley Wickham's influential formulation of the [tidy data paradigm](https://vita.had.co.nz/papers/tidy-data.pdf)[^innovation-1]. Prior to the widespread adoption of tidy data, analytical workflows often involved fragile, poorly documented transformations between heterogeneous data sources, spreadsheets, relational databases, and statistical software. Although the underlying mathematical and database concepts were well understood, they remained inaccessible to many practitioners and difficult to apply consistently in everyday analytical work.
 
 [^innovation-1]: Hadley Wickham: *Tidy Data* [@wickham_tidy_2014]
 
@@ -177,7 +177,7 @@ Following the approach developed in recent work on federated cultural heritage i
 
 From the perspective of semantic stabilisation, conceptual models provide the semantic substrate on which harmonisation, federation, provenance reconstruction, contextualisation, and AI-assisted interpretation become possible.
 
-## Reproducible Methodological Approach
+## Reproducible Methodological Approach {#sec-reproducible-research-approach}
 
 This research programme develops and evaluates semantic stabilisation methods through a portfolio of peer-reviewed scientific software written primarily in R. The software serves as a reproducible research environment in which semantic stabilisation methods can be specified, implemented, tested, documented, and evaluated using real-world data and operational knowledge systems.
 
