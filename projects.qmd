@@ -45,6 +45,21 @@ Finno-Ugric Dataspace: interconnecting the tangible and intangible heritage of r
 
 ### OpenHerit (Awareded Projects from the Second Call in Echoes-ECCCH)
 
+OpenHerit helps small and medium-sized cultural heritage institutions—particularly open-air museums and regional heritage organisations—prepare for participation in the European Collaborative Cloud for Cultural Heritage (ECCCH). Building on the RETOLD documentation framework, the project investigates how existing descriptions of buildings, crafts, traditions, and community heritage can be progressively aligned with emerging European interoperability frameworks such as CIDOC CRM and the Heritage Digital Twin Ontology (HDTO).
+
+Rather than developing new software infrastructure, the project focuses on capacity building, documentation review, and practical workflows that enable museum professionals and volunteers to understand how their existing collections and documentation practices relate to the ECCCH ecosystem. Through workshops, guidance materials, and demonstrator examples, OpenHerit explores realistic pathways for creating simple heritage digital twins using existing infrastructures such as Wikimedia Commons, Wikidata, Europeana, and EOSC-aligned repositories.
+
+From the perspective of semantic stabilisation, OpenHerit investigates how heterogeneous heritage documentation can be clarified, reviewed, and translated into interoperable semantic representations without imposing unrealistic technical requirements on smaller institutions. The project therefore serves as a practical testbed for transforming local documentation practices into reusable and trustworthy digital heritage knowledge.
+
+### Unlabel
+
+To be continued in @sec-opensync and following from @sec-openmuse, with Swedish
+music distributor we are working on ways to read, stabilise and translate metadata
+from corporate archives, and even public archives that help rights clearance and 
+distribution to the public from studio or label archives to platforms like 
+Spotify, Apple, Amazon. This work supports catalogue transfers for currently 
+not available, or not well distributed music.
+
 ### Andrássy Archives {#sec-project-andrassy}
 
 The Collection of the _Gyula Andrássy Foundation_ contains approximately two million digital objects representing archival records, photographs, maps, manuscripts, and related cultural heritage materials. Creating a traditional archival description for a collection of this size would require tens of millions of individual metadata statements and, under conventional workflows, hundreds of archivist-years of work. The project therefore addresses a fundamental challenge facing many large-scale cultural heritage collections: how to make vast digital holdings discoverable, researchable, and interoperable when comprehensive manual description is not economically feasible.

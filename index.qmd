@@ -17,5 +17,5 @@ Semantic stabilisation is therefore a process of uncertainty reduction rather th
 ::: callout-caution
 ## Incomplete
 
-I am currently transfer here in a consistent manner the public presentations and reports of the past 10 years with future plans. You can find a lot more on [https://reprex.nl/](https://reprex.nl/p) and <https://danielantal.eu/>. I am planning to finish the migration by 21 June 2026.
+This is a work in progress to present my past work in a coherent research and innovation agenda for the next few years. You can find more materials on [https://reprex.nl/](https://reprex.nl/p) and <https://danielantal.eu/>.
 :::

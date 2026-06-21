@@ -345,7 +345,6 @@ The digital surrogates are organised according to a relatively clean archival st
 
 ![](png/projects/andrassy-structure.png){fig-align="center"}
 
-
 The problem is that the observed units are digital images rather than archival records. A letter may contain multiple pages, and both sides of a page may be scanned separately.
 
 Consequently:
