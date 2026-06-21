@@ -5,7 +5,7 @@ project:
 execute:
   freeze: auto
 
-version: "0.0.2"
+version: "0.0.3"
 
 book:
   page-footer:
@@ -15,7 +15,7 @@ book:
   title: "Semantic Stabilisation"
   subtitle: "A Pragmatic Research and Innovation Programme"
   downloads: [pdf, epub, docx] 
-  output-file: semantic-stabilisation-v002
+  output-file: semantic-stabilisation-v003
   author:
      - name: "Daniel Antal, CFA"
        orcid: 0000-0001-7513-6760
@@ -37,6 +37,8 @@ book:
     - projects.qmd
     - research.qmd
     - references.qmd
+  appendices:
+    - dfhr.qmd
 
 citation:
   container-title: "Semantic Stabilisation"

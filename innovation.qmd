@@ -6,7 +6,11 @@
 --->
 ```
 
-`Semantic stabilisation` is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into sufficiently coherent semantic representations that support reproducible inference, communication, and practical decision-making.
+`Semantic stabilisation` is the process of transforming incomplete, ambiguous, heterogeneous, or partially conflicting observations into semantic representations that are sufficiently stable for a specified purpose while preserving uncertainty, competing interpretations, and opportunities for future revision where these remain relevant.
+
+Semantic stabilisation is therefore not an end in itself. The objective is neither to maximise agreement nor to eliminate ambiguity wherever it exists. Many forms of inquiry depend on preserving uncertainty, alternative classifications, contested interpretations, and unresolved questions. Semantic stabilisation seeks only to establish the degree of semantic correspondence required for reproducible inference, communication, and practical decision-making within a particular context.
+
+The semantic objects produced through stabilisation remain open to review, correction, refinement, division, merger, reclassification, or replacement as new observations emerge, new purposes arise, or alternative interpretations become relevant. Stabilisation should therefore be understood as a temporary and pragmatic achievement rather than a final semantic state.
 
 The methodology developed in this research programme is grounded in empirical case studies and implemented through a portfolio of R software libraries. The concept of semantic stabilisation did not precede these software systems; it emerged retrospectively from repeated encounters with structurally similar problems across multiple domains (See later: @sec-reproducible-research-approach). During the development of these R libraries, I was inspired by the fast evolution of the tidyverse ecosystem and, in particular, Hadley Wickham's influential formulation of the [tidy data paradigm](https://vita.had.co.nz/papers/tidy-data.pdf)[^innovation-1]. Prior to the widespread adoption of tidy data, analytical workflows often involved fragile, poorly documented transformations between heterogeneous data sources, spreadsheets, relational databases, and statistical software. Although the underlying mathematical and database concepts were well understood, they remained inaccessible to many practitioners and difficult to apply consistently in everyday analytical work.
 
@@ -30,7 +34,12 @@ First, it may refer to **engineering pragmatism**, where solutions are judged by
 
 In practice, successful knowledge infrastructures often combine all four forms simultaneously. Wikidata, for example, builds on existing identifiers, ontologies, and community processes rather than attempting to redesign knowledge representation from first principles. Similarly, knowledge engineers frequently reuse established ontological patterns rather than creating entirely new ontologies, and software developers build upon existing libraries and ecosystems rather than starting from scratch.
 
-In this programme, pragmatism does not mean abandoning semantic rigour. Rather, it means treating semantic objects as sufficiently stabilised when they support reproducible inference, communication, and reuse for a specified purpose while remaining open to revision in light of new observations, contextual evidence, or competing interpretations. Semantic stabilisation therefore seeks neither absolute certainty nor perfect representation, but progressively more robust and reusable semantic objects whose limitations remain explicit and reviewable.
+In this programme, pragmatism does not mean abandoning semantic rigour. Rather, it means treating semantic objects as sufficiently stabilised when they support reproducible inference, communication, and reuse for a specified purpose while remaining open to revision in light of new observations, contextual evidence, or competing interpretations. Semantic stabilisation therefore seeks neither absolute certainty nor perfect representation.
+
+Equally, it does not seek stability for its own sake. A stable classification, authority record, ontology alignment, or semantic correspondence is valuable only insofar as it remains useful for inquiry and action. In some situations, reducing ambiguity enables communication and interoperability; in others, preserving ambiguity or maintaining multiple competing interpretations may be equally important. The aim of semantic stabilisation is therefore not to eliminate semantic flexibility, but to make explicit which uncertainties must be resolved, which can be managed, and which should remain open to future investigation.
+
+Semantic objects are consequently treated as provisional, reviewable, and revisable. They may be merged, divided, reinterpreted, superseded, or challenged as new evidence and new contexts emerge. The objective is not to construct permanent semantic structures, but progressively more robust and reusable semantic objects whose assumptions, provenance, limitations, and review histories remain explicit.
+
 
 ## Two Dimensions of Semantic Stabilisation
 
@@ -114,25 +123,47 @@ Knowledge inference
 
 The lifecycle should not be interpreted as a strictly linear workflow. New observations, contextual evidence, competing interpretations, or inference results may require revisiting earlier stages. Semantic stabilisation therefore remains an iterative process in which semantic objects are continuously corroborated, refined, and reused.
 
-### Methodological Inspirations
+### Methodological Inspirations {#sec-methodological-inspirations}
 
-This research programme is informed by two philosophical perspectives that emphasise knowledge formation as a process rather than a final outcome.
+This research programme is informed by philosophical traditions that understand meaning, knowledge, and classification as products of ongoing inquiry rather than reflections of a fixed semantic order. Semantic stabilisation is therefore not conceived as the discovery of final meanings, but as the progressive reduction of uncertainty for a particular purpose, context, and community of interpretation.
 
-Donald Davidson's concept of the radical interpreter provides a useful metaphor for semantic stabilisation under conditions of minimal prior knowledge. The interpreter enters a context where meanings cannot be assumed and must be inferred through observation, contextual clues, and iterative hypothesis formation. Similar situations arise in provenance research, namespace construction, authority control, and the identification of previously unknown entities. Before observations can be integrated into a shared semantic framework, it must first be established what they refer to and how they relate to one another. As Rorty quotes the radical interpreter's problem:
+Willard Van Orman Quine's concept of ontological relativity provides an important starting point. Quine argued that there is no uniquely correct way to partition reality into objects, categories, and relations independent of a conceptual scheme. The identification of entities, classes, and relationships is always embedded in a broader interpretive framework. This perspective is particularly relevant for archival records, authority files, cultural artefacts, and knowledge graphs, where the objects under investigation are often not given in advance but emerge through processes of description, classification, and review. Semantic stabilisation therefore begins from the assumption that many semantic objects are not discovered fully formed but progressively constructed through interpretive work.
+
+Donald Davidson's concept of the radical interpreter provides a useful model for understanding how such interpretive work proceeds under conditions of uncertainty. The radical interpreter enters a context in which meanings cannot be assumed and must instead be inferred through observation, contextual clues, and iterative hypothesis formation. Similar situations arise in provenance research, authority control, namespace construction, and the identification of previously unknown entities. Before observations can be integrated into a shared semantic framework, it must first be established what they refer to and how they relate to one another.
+
+As Richard Rorty summarises Davidson's position:
 
 > To make things easier, imagine that I am forming such a theory about the current behavior of a native of an exotic culture into which I have unexpectedly parachuted. This strange person, who presumably finds me equally strange, will simultaneously be busy forming a theory about my behavior. If we ever succeed in communicating easily and happily, it will be because her guesses about what I am going to do next, including why \[...\] To came to say that we speak the same language is to say, as Davidson puts it, that "we tend to converge on passing theories" Davidson's point is that all "two people need, if they are to understand one another through speech, is the ability to converge on passthing theories from utterance to utterance."
 
-Richard Rorty's interpretation of Davidson in *Contingency, Irony, and Solidarity* provides an equally important perspective. Rorty emphasises that successful communication does not require access to a final, universal vocabulary or a privileged semantic foundation. Rather, actors progressively develop shared interpretations that become sufficiently reliable for communication and action. Davidson's notion of "passing theories" captures this process well. Individuals do not begin with a perfectly shared language or ontology; they continually adjust their interpretations of one another until they reach a level of mutual understanding that is adequate for a given purpose.
+Davidson's radical interpreter is important not because it promises a final semantic alignment, but because it demonstrates that successful communication can emerge from the continual revision of provisional interpretations. Meaning is not established once and for all; it is negotiated through repeated interaction.
 
-> Davidson's account of linguistic communication dispenses with the picture of language as a third thing intervening between self and reality, and of different languages as barriers between persons or cultures. To say that one's previous language was inappropriate for dealing with some segment of the world (for example, the starry heavens above, or the raging passions within) is just to say that one is now, having learned a new language, able to handle that segment more easily. To say that two communities have trouble getting along because the words they use are so hard to translate into each other is just to say that the linguistic behavior of inhabitants of one community may, like the rest of their behavior, be hard for inhabitants of the other community to predict.
+Rorty's interpretation of Davidson in Contingency, Irony, and Solidarity extends this insight. Rorty rejects the idea that successful communication depends on access to a universal vocabulary or a privileged semantic foundation. Communities achieve mutual understanding not by discovering a final ontology, but by developing interpretations that prove sufficiently reliable for communication, cooperation, and inquiry. Semantic objects are therefore best understood as contingent achievements rather than permanent truths.
 
-This perspective is particularly relevant for semantic stabilisation. The objective is not to discover a final or universally correct representation of a concept, entity, or observation. Instead, the goal is to establish semantic correspondences that are sufficiently stable to support communication, inference, federation, and reuse while remaining open to revision. Semantic objects are therefore treated as contingent achievements rather than permanent truths.
+This perspective has an important consequence for semantic stabilisation. The objective is not to eliminate ambiguity wherever it exists. Ambiguity, competing interpretations, and conceptual instability are often productive features of inquiry. Paradigm shifts, reinterpretations of historical evidence, and the emergence of new conceptual frameworks frequently depend on preserving distinctions that may initially appear uncertain or unstable. Semantic stabilisation therefore seeks not to maximise agreement, but to identify which uncertainties must be resolved for a particular task and which should remain open for future investigation.
 
-Imre Lakatos's philosophy of science provides a complementary perspective on the progressive refinement of these semantic correspondences. Rather than treating semantic claims as simply true or false, semantic stabilisation treats them as working hypotheses that may become increasingly corroborated or increasingly challenged as new observations emerge. A counterexample does not necessarily invalidate an entire semantic framework; instead, it may motivate refinements, exceptions, or more precise formulations. In this sense, semantic stabilisation can be understood as a progressive and iterative process in which semantic objects become increasingly robust through repeated use, review, and corroboration.
+Imre Lakatos's philosophy of scientific research programmes provides a complementary perspective on the dynamics of this process. Rather than treating semantic claims as simply true or false, semantic stabilisation treats them as working hypotheses that may become increasingly corroborated or increasingly challenged as new observations emerge. Counterexamples do not necessarily invalidate an entire semantic framework; they often reveal opportunities for refinement, exception handling, or the discovery of previously unrecognised distinctions.
 
-> ... the typical descriptive unit of great scientific achievements is not an isolated hypothesis but rather a research programme. ... ‘All swans are white’ may be falsified by the discovery of one black swan. But such trivial trial and error does not rank as science. ... And, even more importantly, the research programme also has a ‘heuristic’, that is, a powerful problem-solving machinery, which, with the help of sophisticated mathematical techniques, digests anomalies and even turns them into positive evidence.
+As Lakatos observed
 
-Together, these perspectives encourage an understanding of semantic stabilisation as an iterative process of interpretation, review, corroboration, and revision. Stabilisation does not conclude inquiry. On the contrary, successful stabilisation often creates new opportunities for inference, new questions, and new avenues of investigation.
+> ... the typical descriptive unit of great scientific achievements is not an isolated hypothesis but rather a research programme. ... And, even more importantly, the research programme also has a heuristic, that is, a powerful problem-solving machinery, which, with the help of sophisticated mathematical techniques, digests anomalies and even turns them into positive evidence.
+
+This insight is particularly important for semantic stabilisation. Anomalies, contradictions, and competing classifications are not merely obstacles to be removed. They are often sources of information that reveal missing semantic objects, missing relationships, or inadequate conceptualisations. A multilingual fasciculus may reveal hidden record boundaries. A conflicting authority record may reveal an unrecognised identity profile. A disputed claim may reveal a previously unnoticed distinction in a knowledge graph.
+
+Together, these perspectives encourage an understanding of semantic stabilisation as an iterative process of interpretation, review, corroboration, and revision:
+
+```
+observation
+   ↓ 
+candidate interpretation 
+   ↓ 
+ review 
+   ↓ 
+corroborated interpretation 
+   ↓ 
+new observations
+```
+
+The reviewer is not external to this process. Following Davidson and Rorty, interpretation itself forms part of the evolving semantic system. Semantic stabilisation therefore does not conclude inquiry. On the contrary, successful stabilisation frequently generates new observations, new questions, and new opportunities for revision. The objective is not to arrive at a final and immutable representation of reality, but to create semantic objects that are sufficiently stable to support communication, inference, federation, and action while remaining open to future reinterpretation.
 
 ### From 5-stars to 8-stars
 
@@ -153,6 +184,13 @@ Each star of the 8-star model can be viewed as a distinct stabilisation effort. 
 Semantic stabilisation does not replace the 8-star model, nor does it introduce an alternative maturity framework. Rather, it investigates the practical, methodological, and computational processes through which organisations progressively move from raw observations to reusable semantic objects. The objective is to understand how semantic assumptions, identities, correspondences, representations, and uncertainties can be made explicit and reviewed throughout the data lifecycle, enabling the different layers of the 8-star model to function coherently as an integrated whole.
 
 The shared motivation is that FAIR and Linked Open Data principles, while essential, do not by themselves solve the reproducibility crisis. Data may be findable, accessible, interoperable, and formally valid while still being semantically misleading, poorly documented, difficult to reproduce, or untrustworthy for a particular research purpose. My contribution would be to develop software-supported, empirically grounded methods for making semantic assumptions explicit before data are published, federated, reused, or submitted to machine reasoning.
+
+An important qualification is that semantic stabilisation should never optimise away the possibility of semantic revision. Trustworthy data are not merely data that conform to schemas, validation rules, or accepted interpretations. They must also remain open to correction, reinterpretation, and reclassification when new evidence, new contexts, or new research questions emerge. A semantic object that cannot be challenged may be stable, but it is not necessarily trustworthy.
+
+For this reason, semantic stabilisation treats review histories, provenance chains, competing interpretations, and explicit uncertainty as assets rather than imperfections. The objective is not to eliminate semantic flexibility, but to make semantic assumptions sufficiently explicit that they can be inspected, reused, criticised, and revised. Higher levels of semantic maturity therefore require not only stronger validation and greater coherence, but also greater transparency regarding how semantic correspondences were established and under what conditions they might be reconsidered.
+
+In this sense, semantic stabilisation seeks to support semantic evolution rather than semantic closure. The goal is to create semantic objects that are sufficiently stable for communication, inference, federation, and reuse while preserving the possibility of informed revision.
+
 
 ## Semantic Models, Ontologies, and Interoperability
 
@@ -213,7 +251,7 @@ Although `iotables` contains analytical functions, a significant part of its con
 
 In this sense, `iotables` can be understood as an early semantic stabilisation toolkit. Before economic, environmental, or social inferences can be drawn from the data, the semantic meaning of the underlying observations must be established and maintained consistently across multiple statistical systems. You can access the `iotables` product page on [iotables.dataobservatory.eu](https://iotables.dataobservatory.eu/). The product page consists of tutorials, cross-reference with the EU and UN statistical handbooks on the topic, and a case study of environmental impact assessment.
 
-### The retroharmonize Package
+### The retroharmonize Package {#sec-r-package}
 
 [![The goal of retroharmonize is to facilitate retrospective (ex-post) harmonization of survey data in a reproducible manner.](png/software/retroharmonize_028.png){fig-alt="The goal of retroharmonize is to facilitate retrospective (ex-post) harmonization of survey data in a reproducible manner."}](https://retroharmonize.dataobservatory.eu/)
 
@@ -232,6 +270,44 @@ From the perspective of semantic stabilisation, `retroharmonize` represents a tr
 The accompanying rOpenCodebooks framework extends this approach by providing a lightweight linked open data publication system for survey codebooks and harmonisation metadata, allowing semantic correspondence decisions to remain transparent, reviewable, and reusable.
 
 The [retroharmonize.dataobservatory.eu](https://retroharmonize.dataobservatory.eu/) product page contains the rich documentation of the pacakge and use cases to use it with Eurobaromter, Arabbarometer and Afrobarometer harmonised sureys across time and country.
+
+### The *regions* Package: Semantic Stabilisation of Statistical Territories {#sec-regions-package}
+
+The *regions* R package emerged from a recurring interoperability problem in official statistics and empirical research: geographical identifiers are not stable semantic objects. Statistical observations are attached to territorial units whose boundaries, identifiers, labels, and hierarchical positions change over time. As a result, two observations referring to the same territory may be encoded differently, while identical codes may refer to different territorial realities under different classification systems.
+
+The package was originally developed during the creation of reproducible regional datasets used in cultural, economic, and innovation policy research, including my currently highest impact *Can scholarly pirate libraries bridge the knowledge access gap? An empirical study on the structural conditions of book piracy in global and European academia* journal article (see @libgen-publication). The research integrated data from Library Genesis, Eurostat, the World Bank, Eurobarometer, and other international sources. Combining these datasets required systematic handling of changing regional typologies and territorial definitions across countries and time periods.
+
+From the perspective of semantic stabilisation, the challenge can be formulated as follows:
+
+**Observed objects**
+
+- Statistical observations associated with geographical identifiers.
+
+**Semantic uncertainty**
+
+- Does a geographical code refer to the same territorial unit across different years?
+- Can observations coded according to different versions of the NUTS classification be compared?
+- How should territorial boundary changes be represented in longitudinal statistical datasets?
+
+The package addresses these questions through a reproducible framework for territorial validation, recoding, aggregation, disaggregation, and correspondence management.
+
+A central contribution was the transformation of Eurostat's territorial correspondence tables into a machine-readable and internally consistent semantic layer. These official correspondence tables describe territorial boundary changes, code changes, renamings, mergers, and splits, but were originally published in heterogeneous formats that were difficult to integrate into statistical workflows. The package harmonised these resources into a unified representation of territorial evolution from NUTS1999 onward.
+
+This process can be interpreted as an early example of semantic stabilisation. Rather than treating geographical codes as fixed identifiers, the package models them as context-dependent representations whose meaning depends on a specific territorial typology and historical definition. Validation functions establish whether an identifier is meaningful within a given typology. Recoding functions establish semantic correspondence between historical and current identifiers. Aggregation and disaggregation functions allow observations to move across territorial hierarchies while preserving their semantic interpretation.
+
+The resulting stabilised semantic object is not merely a geographical code but a territorial statistical unit with explicit historical, hierarchical, and typological context.
+
+The methodological significance extends beyond European regional statistics. Similar problems occur whenever observations are attached to changing administrative, political, or organisational structures. The package therefore demonstrates a general principle of semantic stabilisation: reproducible statistical inference requires not only stable variables and measurements, but also stable representations of the observation space itself.
+
+Within the broader semantic stabilisation research programme, *regions* represents an early software implementation of territorial identity stabilisation. While later projects focused on survey variables, cultural heritage entities, provenance reconstruction, authority files, and knowledge graph federation, *regions* addressed the same underlying problem in a statistical context: transforming heterogeneous and partially incompatible observations into semantic objects that support reproducible integration, comparison, and inference.
+
+> The package enabled the construction of harmonised regional indicators used to explain the geography of scholarly book piracy, demonstrating that semantic stabilisation of territorial identities is a prerequisite for reproducible comparative research at sub-national scale.
+
+**Scientific and Practical Impact**
+
+The *regions* package demonstrates how a methodological contribution can become part of the everyday infrastructure of empirical research. Originally developed to support reproducible regional statistics and longitudinal territorial analysis, the package remains actively used several years after its initial release, with approximately 6,000 downloads per month from CRAN. Its continued adoption suggests that the underlying problem it addresses—the semantic stabilisation of territorial identities and statistical observation spaces—remains a persistent challenge in official statistics, policy analysis, and interdisciplinary research.
+
+Beyond its use in the Library Genesis study published in *PLOS ONE*, the package has provided a reusable framework for territorial validation, recoding, aggregation, and harmonisation across changing geographical classifications. In retrospect, it can be viewed as one of the earliest software implementations of the semantic stabilisation principles that later became explicit in this research programme.
 
 ### The Eviota System
 
@@ -326,3 +402,13 @@ Conceptually, fscontext functions as an observational and contextualisation laye
 The package serves both as a practical toolkit and as an experimental framework for studying how contextual knowledge can be reconstructed, represented, and progressively stabilised before formal semantic integration takes place.
 
 The code base prior to the first CRAN release is available at <https://github.com/dataobservatory-eu/fscontext>
+
+### Betwixt
+
+Betwixt aims to be a semantic templating and review framework for the cognitively lightweight human review of semantically uncertain data, metadata, and knowledge claims. It addresses situations where automated methods can narrow semantic ambiguity but cannot reliably resolve it without human judgement. Rather than attempting to replace human expertise, Betwixt seeks to present semantic assumptions, provenance, evidence, and potential consequences in a form that allows rapid and reproducible human corroboration.
+
+In its initial implementation, Betwixt will be developed in R using Mustache templates and concepts drawn from PROV for provenance representation and ODRL for modelling review consequences and permitted actions. The objective is not to create a new templating language, review application, or workflow system. Instead, Betwixt introduces a semantic review layer that can be rendered through existing templating technologies and integrated into existing data processing and knowledge management workflows.
+
+Just as `dataset_df` extends `tbl_df` with semantic metadata while remaining fully compatible with the tidyverse ecosystem, Betwixt seeks to extend existing document-generation and review workflows with explicit representations of provenance, review state, corroboration status, uncertainty, and policy consequences. A Betwixt object represents a semantic claim in an intermediate state between observation and accepted semantic object, making the assumptions underlying inference visible, reviewable, and easier to debug.
+
+The long-term ambition of Betwixt is not the development of a specific software application but the definition of a portable semantic review model that can be implemented across programming languages, knowledge graph platforms, archival systems, and data harmonisation workflows. By remaining close to established technologies such as Mustache, Betwixt aims to provide a lightweight and interoperable mechanism for introducing human review into processes of semantic stabilisation without imposing a particular technical stack or institutional workflow.

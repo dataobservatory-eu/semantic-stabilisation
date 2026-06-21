@@ -18,12 +18,6 @@ These domains provide practical settings in which semantic stabilisation problem
 
 I am frequent speaker at various professional events. My presentations are almost always availabe with a bit of context, and sometimes with recorded livestreams, on the Reprex website. They are usually also deposited to Zenodo with a DOI.
 
-::: callout-caution
-## Incomplete
-
-I am currently transfer here in a consistent manner the public presentations and reports of the past 10 years. You can find a lot more on [https://reprex.nl/](https://reprex.nl/p) and <https://danielantal.eu/>.  I am planning to finish the migration by 21 June 2026.
-:::
-
 ## Rights-management and authority control
 
 - [Trustworthy AI-Supported Copyright Infrastructure](https://reprex.nl/event/2026-05-07_collective-management-ai/), Presentation At Collective Management and AI: Challenges and Perspectives, May 7, 2026 10:00 AM, Nicosia/online.
@@ -46,11 +40,15 @@ I am currently transfer here in a consistent manner the public presentations and
 
 ## Graph federation and data governance
 
-- [Wikibase as a Data Sharing Space: Connecting Rights, Communities, and GLAM through Federated Infrastructures](https://reprex.nl/event/2025_10_31_wikidataconf/), WikidataConf 2025, Oct 31, 2025 6:00 PM, online.
+- [Wikibase as a Data Sharing Space: Connecting Rights, Communities, and GLAM through Federated Infrastructures](https://reprex.nl/event/2025_10_31_wikidataconf/), WikidataConf 2025, Oct 31, 2025 6:00 PM, online[^wikidataconf-2025].
+
+[^wikidataconf-2025]: [@antal_wikidata_conf_2025]
 
 - [Brace for Impact: Trustworthy AI for Good](https://reprex.nl/event/2025_10_30_impactfest/) - [ImpactFest 2025](https://www.impactfest.nl/want-to-be-part-of-impactfest-2025/) Oct 30, 2025 2:15 PM, The Hague. During ImpactFest 2025, Reprex participated in the expert session ‘Brace for Impact: Trustworthy AI for Good,’ where data innovators and entrepreneurs discussed practical challenges around data access, reliability, and governance.
 
-- . How can we make GLAM institutions and private collectors work with each other on joint Wikimedia GLAM on a joint exhibition?
+- Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^research-5]
+
+[^research-5]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
 
 - [Building a music data sharing space with Wikibase: A use case to extend the world’s largest open database](https://reprex.nl/event/2024-09-21_wikimedia_cee/), [Wikimedia CEE Meeting 2024](https://reprex.nl/event/2024-09-21_wikimedia_cee/), Müze Gazhane, Kadıköy, İstanbul[^empirical-2].
 
@@ -64,7 +62,9 @@ I am currently transfer here in a consistent manner the public presentations and
 
 ## Cultural and Creative Industries and Secture, Open Cultural Heritage {#sec-cult-heritage-presentations}
 
-- [WikiMuseum = GLAM Wiki + Wikibase + Data Sharing Space](https://reprex.nl/event/2025-09-28_wikimedia_ceem/), [Wikimedia CEE 2025 Meeting](https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/), Thessaloniki, Greece. Our presentation shows how Wikimedia tools and federated dataspace design can reconnect dispersed heritage of small communities, such as the Livonians, Võros, Setos, and Maris. We introduce the Wikimuseum exhibition model and the Finno-Ugric Data Sharing Space (FUDSS), both designed to combine encyclopedic, archival, museum, and private collections into multilingual, interoperable cultural knowledge graphs. See the [event page](#0) and [download the presentation](#0), watch the livestream recording on the event page.
+- [WikiMuseum = GLAM Wiki + Wikibase + Data Sharing Space](https://reprex.nl/event/2025-09-28_wikimedia_ceem/), [Wikimedia CEE 2025 Meeting](https://meta.wikimedia.org/wiki/Wikimedia_CEE_Meeting_2025/, Thessaloniki, Greece. Our presentation shows how Wikimedia tools and federated dataspace design can reconnect dispersed heritage of small communities, such as the Livonians, Võros, Setos, and Maris. We introduce the Wikimuseum exhibition model and the Finno-Ugric Data Sharing Space (FUDSS), both designed to combine encyclopedic, archival, museum, and private collections into multilingual, interoperable cultural knowledge graphs. See the [event page](#0) and [download the presentation](#0), watch the livestream recording on the event page.[^wikimuseum-2025]
+
+[^wikimuseum-2025]: [@wikimuseum_2025]
 
 - [TextileBase: Introduction. Federating Open Knowledge About Textiles & Dress History](https://reprex.nl/event/2025-07-10-textilebase/) Jul 10, 2025, ELTE Digital Humanities Lab, Budapest. Showcasing data curation and knowledge accumulation in textile research in contexts where archival depth is shallow and data quality is mixed. Discussing tooling that works outside the computer lab, and stays resilient enough to to work for researchers and cultural institutions across languages, countries, and platforms.
 
@@ -79,6 +79,8 @@ I am currently transfer here in a consistent manner the public presentations and
 ## Statistical Innovation & Data Production
 
 - [Music and Creative Industry Indicators from Needs Assessment to Automated Production, Bratislava, SK]()
+
+- Creating better national cultural statistics with Eurobarometer datasets and ESSNet-Culture technical recommendations [@antal_creating_2015]
 
 ## Collections, Museum, Archival and Library Studies
 

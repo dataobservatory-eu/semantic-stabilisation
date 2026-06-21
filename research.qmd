@@ -1,31 +1,22 @@
 # Research
 
-::: callout-caution
-## Incomplete
-
-I am currently transfer here in a consistent manner the public presentations and reports of the past 10 years. You can find a lot more on [https://reprex.nl/](https://reprex.nl/p) and <https://danielantal.eu/>.  I am planning to finish the migration by 21 June 2026.
-:::
-
-
 ## Publications
 
 ### Federating Open Knowledge through Wikibase: The Case of The Finno-Ugric Data Sharing Space {#sec-publication-dnhb-2025}
-
-In *Digital Humanities in the Nordic and Baltic Countries Publications*
 
 This paper presents the design and early implementation of the Finno-Ugric Data Sharing Space (DSS), a multilingual, community-driven prototype for linking cultural heritage data across institutional and geographic boundaries. Rather than a finished infrastructure, the DSS should be read as a blueprint and exploratory model—developed as a thought experiment with minimal resources but grounded in our prior work on music metadata governance involving both public and private actors.
 
 This paper presents the design and early implementation of the Finno-Ugric Data Sharing Space (DSS), a multilingual, community-driven prototype for linking cultural heritage data across institutional and geographic boundaries. Rather than a finished infrastructure, the DSS should be read as a blueprint and exploratory model—developed as a thought experiment with minimal resources but grounded in our prior work on music metadata governance involving both public and private actors. We use this experimental setting to review structural problems in existing Finno-Ugric knowledge systems: the negative outcomes of Wikipedia’s Livonian and Mari initiatives, the dispersion of diasporic knowledge, and the limitations of national GLAM infrastructures. Building on empirical literature and our own governance practice, we propose a lightweight federated infrastructure built on Wikibase and open ontologies, which enables multilingual vocabularies, contextual annotation, and ethical data linking without flattening local epistemologies. Case studies of Seto textile collections and the Hõimulõimed multilingual song archive illustrate how the prototype supports cultural reconstruction and participatory enrichment. While not an institutional solution, the DSS demonstrates how a semantically rich, community-anchored model can serve as a testbed for broader applications in low-scale cultural ecosystems.
 
-Co-authors: Kata Gábor, Ieva Pigozne, Bogáta Tímár
+Co-authors: Kata Gábor, Ieva Pigozne, Bogáta Tímár In *Digital Humanities in the Nordic and Baltic Countries Publications*
 
 ### Linking Garments to Knowledge: TextileBase as an Interdisciplinary Graph for Dress and Textile Research {#sec-publication-textilebase}
 
 This article introduces `TextileBase`, a multilingual knowledge graph that connects dispersed data on garments from museums, archives, and libraries. By transforming artefact records, photographs, and texts into interoperable knowledge statements, it enables interdisciplinary research across dress history, ethnography, and sustainable fashion. The preprint demonstrates early results using Baltic and Finno-Ugric datasets and shows how TextileBase improves searchability, semantic interoperability, and reuse of cultural heritage data.
 
-Journal article in *Culture Crossroads*, Vol. 28, 2025
-
 The article demonstrates how dress history and textile-related research can be enhanced through the interoperability of knowledge provided by a knowledge graph. The growing availability of digital cultural and historical data is not matched by a similar increase in their usability. Therefore, expanding the search radius to collections across disciplines and countries requires harmonisation and interoperability of knowledge. Reprex has created TextileBase – a knowledge base fully interoperable with libraries, archives, museums, the open knowledge system Wikidata, and open science repository systems. The article highlights key considerations when formulating searches and addressing terminology dissimilarities to ensure that data providers working across country, language, or disciplinary boundaries understand the intended meaning. To improve and streamline searchability in libraries for textual sources mentioning relevant historical garments, archives for their contemporary depictions, and museum collections for new artefacts, TextileBase transforms data and metadata into knowledge statements, links terms to an international controlled vocabulary, and carefully compares the works of various research and collection institutions.
+
+Journal article in *Culture Crossroads*, Vol. 28, 2025
 
 Co-author: Ieva Pigozne
 
@@ -109,9 +100,17 @@ and the Slovak version:
 
 - **Dáša Bulíková**, musician, translator.
 
-### Can scholarly pirate libraries bridge the knowledge access gap? An empirical study on the structural conditions of book piracy in global and European academia
+### Can scholarly pirate libraries bridge the knowledge access gap? An empirical study on the structural conditions of book piracy in global and European academia {#libgen-publication}
 
-sdafa
+The topic of the paper is Library Genesis (LG), the biggest piratical scholarly library on the internet, which provides copyright infringing access to more than 2.5 million scientific monographs, edited volumes, and textbooks. The paper uses advanced statistical methods to explain why researchers around the globe use copyright infringing knowledge resources. The analysis is based on a huge usage dataset from LG, as well as data from the World Bank, Eurostat, and Eurobarometer, to identify the role of macroeconomic factors, such as R&D and higher education spending, GDP, researcher density in scholarly copyright infringing activities.
+
+![](png/publications/libgen-2.png){fig-align="center"}
+
+Published in [PLOS One](https://journals.plos.org/plosone/) is the fourth most influential multidisciplinary journal after Nature, and Science, and Proceedings of the National Academy of Sciences of the United States of America (based on [H index](https://www.scimagojr.com/journalrank.php?category=1000&area=1000&order=h&ord=desc).) On December 3, 2020 it published [a paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0242509) co-authored by Dr. Balazs Bodo, associate professor at the Institute for Information Law (IViR), Daniel Antal (Reprex), a data scientist interested in reproducible research, as an independent researcher, and Zoltan Puha, a Data Science PhD at Tilburg University, JADS. PLOS (Public Library of Science) is a nonprofit Open Access publisher, empowering researchers to accelerate progress in science and medicine by leading a transformation in research communication.
+
+The article utilizes the our reproducible datasets created with our [regions](#sec-regions-package) package, and builds on many years of expertise in empirical research on the field of music and audiovisual piracy, home copying and private copying compensation (see for example [Private Copying in Croatia](https://dataandlyrics.com/publication/private_copying_croatia_2019/).) Our aim is to provide reliable, high quality indicators for the creative industries not only on national, but provincial, state, regional and metropolitan area level, too, because these levels are often more relevant for creators, performers and policy-makers.
+
+The topic of the paper is Library Genesis (LG), the biggest piratical scholarly library on the internet, which provides copyright infringing access to more than 2.5 million scientific monographs, edited volumes, and textbooks. The paper uses advanced statistical methods to explain why researchers around the globe use copyright infringing knowledge resources. The analysis is based on a huge usage dataset from LG, as well as data from the World Bank, Eurostat, and Eurobarometer, to identify the role of macroeconomic factors, such as R&D and higher education spending, GDP, researcher density in scholarly copyright infringing activities.
 
 ### Central European Music Industry Report
 
@@ -159,58 +158,3 @@ Chapter in the Studies in Popular Music: Made in Hungary, Routledge[^research-3]
 
 [^research-3]: *The Growth of the Hungarian Popular Music Repertoire: Who Creates It And How Does It Find An Audience* [@antal_growth_2017]
 
-### Creating better national cultural statistics with Eurobarometer datasets and ESSNet-Culture technical recommendations
-
-Poster[^research-4].
-
-[^research-4]: Creating better national cultural statistics with Eurobarometer datasets and ESSNet-Culture technical recommendations [@antal_creating_2015]
-
-*Wikimedia CEE Meeting 2025 in Thessaloniki*, and the *Wikidata Conf 2025* online; we have built relationships with various national chapters and the Wikidata and Abstract Wikipedia teams, and joined the Wikidata Ontology Cleanup Task Force and the Wikidata Mereology Task Force to help the coordiantion of our open source technology, data curation and dissemination efforts. [@wikimuseum_2025; @antal_wikidata_conf_2025].
-
-### 2024
-
-Big Data Value Association, Gaia-X: Dataweek²⁴: Introducing a new European music dataspace[^research-5]
-
-[^research-5]: Jun 5, 2024, Dataweek²⁴, Leuven, Belgium.
-
-Echoes/ECCH: The ECHOES (European Cloud for Heritage OpEn Science) policy even and workshop, 12-13 December 2024 at the Royal Institute for Cultural Heritage (KIK-IRPA), Brussels
-
-Our work was presented in the Technology session of the *Wikimedia CEE Meeting 2024* in Istanbul [\@ @antal_wikimedia_cee_2024]
-
-### 2023
-
-In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna - for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning. At this stage, we started to record user stories for the design of system competences of the Open Music Europe software ecosystem and the observatory's semantic architecture[^research-6].
-
-[^research-6]: The user stories were placed in an OPA compliant folder on GitHub. This work was not carried on after the initiated grant agreement change, when the WP4 did no longer participate in building open source software for this purpose, but we did not abandon the competency requirements [@ome_user_stories].
-
-### 2022
-
-- 
-
-- ,
-
-- Hungarian stakeholders interested in replication of the Slovak pilot versions in various meetings throughout 2024 and 2025[^research-7].
-
-- The Fair MusE - Prelude to a fairermusic industry Fair MusE project[^research-8]
-
-- IAMIC [^research-9]: The *International Association of Music Information Centres* and several key members of the organisation.
-
-- IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^research-10].
-
-- Slovak national stakeholders interested in cultural data.[^research-11]
-
-- Wikimedia community and developers.
-
-- European music industry stakeholders on *LineCheck 2025* [^research-12]
-
-[^research-7]: *Federation possibilities of the Slovak music data sharing space in Hungary* [@antal_2024_networkshop]
-
-[^research-8]: We received useuful feedback for this Green Ppaer from the project and see further synergies in presenting our policy findings together. <https://fairmuse.eu/about/>
-
-[^research-9]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@antal_iamic_presentation_2024; @skcmdb_iamic_poster_2024].
-
-[^research-10]: We presented and discussed these ideas at the *International Association of Music Libraries, Archives and Documentation Centers* on the General Assembly and Annual Conference 7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
-
-[^research-11]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
-
-[^research-12]: *Open Access Music Dataspaces – Open Music Observatory* presented on LineCheck 2025 [@miks_antal_2025]
